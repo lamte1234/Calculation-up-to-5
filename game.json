@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Thanh Dat\\Downloads\\Software-Engineering-master\\Software-Engineering-master\\game.json",
+    "projectFile": "D:\\GDevelop Projects\\StudyApp\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "adaptWidth",
     "useExternalSourceFiles": false,
@@ -5579,7 +5579,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.904
+        "zoomFactor": 0.832
       },
       "objectsGroups": [],
       "variables": [
@@ -6820,6 +6820,10 @@
             {
               "name": "trueAnswer",
               "value": "1"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -6844,6 +6848,10 @@
             {
               "name": "trueAnswer",
               "value": "2"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -6868,6 +6876,10 @@
             {
               "name": "trueAnswer",
               "value": "1"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -6892,6 +6904,10 @@
             {
               "name": "trueAnswer",
               "value": "4"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -6916,6 +6932,10 @@
             {
               "name": "trueAnswer",
               "value": "1"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -6940,6 +6960,10 @@
             {
               "name": "trueAnswer",
               "value": "2"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -6964,6 +6988,10 @@
             {
               "name": "trueAnswer",
               "value": "4"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -6988,6 +7016,10 @@
             {
               "name": "trueAnswer",
               "value": "3"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -7012,6 +7044,10 @@
             {
               "name": "trueAnswer",
               "value": "5"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -7036,6 +7072,10 @@
             {
               "name": "trueAnswer",
               "value": "5"
+            },
+            {
+              "name": "correct",
+              "value": "0"
             }
           ],
           "behaviors": [],
@@ -7889,10 +7929,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "twoMinusOne",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -7915,6 +7956,31 @@
                         "currentAnswer",
                         "!=",
                         "twoMinusOne.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "twoMinusOne",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8015,10 +8081,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "fiveMinusOne",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8041,6 +8108,31 @@
                         "currentAnswer",
                         "!=",
                         "fiveMinusOne.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "fiveMinusOne",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8141,10 +8233,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "fourMinusThree",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8167,6 +8260,31 @@
                         "currentAnswer",
                         "!=",
                         "fourMinusThree.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "fourMinusThree",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8267,10 +8385,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "fourMinusTwo",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8293,6 +8412,31 @@
                         "currentAnswer",
                         "!=",
                         "fourMinusTwo.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "fourMinusTwo",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8393,10 +8537,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "threeAddOne",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8419,6 +8564,31 @@
                         "currentAnswer",
                         "!=",
                         "threeAddOne.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "threeAddOne",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8519,10 +8689,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "fourAddOne",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8545,6 +8716,31 @@
                         "currentAnswer",
                         "!=",
                         "fourAddOne.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "fourAddOne",
+                        "correct",
+                        "=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8645,10 +8841,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "fiveMinusTwo",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8671,6 +8868,31 @@
                         "currentAnswer",
                         "!=",
                         "fiveMinusTwo.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "fiveMinusTwo",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8771,10 +8993,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "threeAddTwo",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8797,6 +9020,31 @@
                         "currentAnswer",
                         "!=",
                         "threeAddTwo.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "threeAddTwo",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -8897,10 +9145,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "oneAddOne",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -8923,6 +9172,31 @@
                         "currentAnswer",
                         "!=",
                         "oneAddOne.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "oneAddOne",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -9023,10 +9297,11 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "ModVarScene"
+                        "value": "ModVarObjet"
                       },
                       "parameters": [
-                        "markIfCorrect",
+                        "fiveMinusFour",
+                        "correct",
                         "=",
                         "1"
                       ],
@@ -9049,6 +9324,31 @@
                         "currentAnswer",
                         "!=",
                         "fiveMinusFour.Variable(trueAnswer)"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarScene"
+                      },
+                      "parameters": [
+                        "currentAnswer",
+                        "!=",
+                        "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "VarObjet"
+                      },
+                      "parameters": [
+                        "fiveMinusFour",
+                        "correct",
+                        "=",
+                        "0"
                       ],
                       "subInstructions": []
                     }
@@ -9097,7 +9397,7 @@
               },
               "parameters": [
                 "hearts",
-                "=",
+                "<=",
                 "2"
               ],
               "subInstructions": []
@@ -9144,7 +9444,7 @@
               },
               "parameters": [
                 "hearts",
-                "=",
+                "<=",
                 "1"
               ],
               "subInstructions": []
@@ -9191,7 +9491,7 @@
               },
               "parameters": [
                 "hearts",
-                "=",
+                "<=",
                 "0"
               ],
               "subInstructions": []
@@ -9222,18 +9522,44 @@
                 ""
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Comment",
+          "color": {
+            "b": 109,
+            "g": 230,
+            "r": 255,
+            "textB": 0,
+            "textG": 0,
+            "textR": 0
+          },
+          "comment": "quay về màn hình chờ hoặc quit game",
+          "comment2": ""
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Quit"
+                "value": "PosX"
               },
               "parameters": [
-                ""
+                "bird1",
+                ">",
+                "800"
               ],
               "subInstructions": []
             }
           ],
+          "actions": [],
           "events": []
         },
         {
