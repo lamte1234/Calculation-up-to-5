@@ -16,15 +16,15 @@
     "packageName": "com.example.gamename",
     "projectFile": "D:\\GDevelop Projects\\StudyApp\\game.json",
     "scaleMode": "linear",
-    "sizeOnStartupMode": "adaptWidth",
+    "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
     "version": "1.0.0",
     "winExecutableFilename": "",
     "winExecutableIconFile": "",
     "name": "Project",
     "author": "",
-    "windowWidth": 800,
-    "windowHeight": 600,
+    "windowWidth": 1280,
+    "windowHeight": 720,
     "latestCompilationDirectory": "",
     "maxFPS": 60,
     "minFPS": 20,
@@ -686,10 +686,55 @@
       },
       {
         "alwaysLoaded": false,
-        "file": "images/tree_2.png",
+        "file": "images/finish.png",
         "kind": "image",
         "metadata": "",
-        "name": "images\\tree_2.png",
+        "name": "images\\finish.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/goToLesson.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\goToLesson.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/game1_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\game1_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/game2_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\game2_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/failFinish.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\failFinish.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/goToLesson_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\goToLesson_2.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -699,6 +744,15 @@
         "kind": "image",
         "metadata": "",
         "name": "images\\door_2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/tree_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\tree_2.png",
         "smoothed": true,
         "userAdded": true
       },
@@ -773,6 +827,33 @@
         "name": "images\\house_2.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/background2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\background2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/playField.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\playField.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/stageBar.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\stageBar.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -805,7 +886,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.952
+        "zoomFactor": 0.544
       },
       "objectsGroups": [],
       "variables": [],
@@ -818,8 +899,8 @@
           "locked": false,
           "name": "game1",
           "width": 0,
-          "x": 137,
-          "y": 140,
+          "x": 360,
+          "y": 220,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -833,9 +914,9 @@
           "locked": false,
           "name": "game2",
           "width": 0,
-          "x": 449,
-          "y": 142,
-          "zOrder": 2,
+          "x": 740,
+          "y": 220,
+          "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -848,8 +929,8 @@
           "locked": false,
           "name": "tiltle1",
           "width": 0,
-          "x": 157,
-          "y": 336,
+          "x": 375,
+          "y": 400,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -863,8 +944,8 @@
           "locked": false,
           "name": "title2",
           "width": 0,
-          "x": 473,
-          "y": 337,
+          "x": 750,
+          "y": 400,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -878,9 +959,54 @@
           "locked": false,
           "name": "quit",
           "width": 0,
-          "x": 29,
-          "y": 549,
-          "zOrder": 19,
+          "x": 50,
+          "y": 660,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "game1_2",
+          "width": 8,
+          "x": 360,
+          "y": 220,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "game2_2",
+          "width": 0,
+          "x": 740,
+          "y": 220,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "quit_2",
+          "width": 0,
+          "x": 50,
+          "y": 660,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -927,6 +1053,45 @@
           ]
         },
         {
+          "name": "game1_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\game1_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "game2",
           "tags": "",
           "type": "Sprite",
@@ -945,6 +1110,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\game2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "game2_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\game2_2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -1021,6 +1225,25 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "quit_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "<<QUIT",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
         }
       ],
       "events": [
@@ -1031,25 +1254,11 @@
           "conditions": [
             {
               "type": {
-                "inverted": false,
-                "value": "SourisSurObjet"
+                "inverted": true,
+                "value": "DepartScene"
               },
               "parameters": [
-                "game1",
-                "",
-                "yes",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
               ],
               "subInstructions": []
             }
@@ -1058,12 +1267,30 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"Stage1\"",
-                "yes"
+                "game1_2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "game2_2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "quit_2"
               ],
               "subInstructions": []
             }
@@ -1081,21 +1308,10 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "game2",
+                "game1",
                 "",
                 "yes",
                 ""
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
               ],
               "subInstructions": []
             }
@@ -1104,17 +1320,118 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "\"Stage4\"",
-                "yes"
+                "game1_2",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Stage1\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "game2",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "game2_2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Stage4\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -1133,32 +1450,54 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Quit"
+                "value": "Montre"
               },
               "parameters": [
+                "quit_2",
                 ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Quit"
+                  },
+                  "parameters": [
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -1206,7 +1545,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.88
+        "zoomFactor": 0.736
       },
       "objectsGroups": [],
       "variables": [
@@ -1230,14 +1569,14 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 30,
           "layer": "",
           "locked": false,
           "name": "stagebar",
-          "width": 0,
-          "x": 132,
-          "y": -16,
+          "width": 500,
+          "x": 390,
+          "y": 17,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1251,8 +1590,8 @@
           "locked": false,
           "name": "bean1",
           "width": 0,
-          "x": 204,
-          "y": 25,
+          "x": 438,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1261,13 +1600,13 @@
         {
           "angle": 0,
           "customSize": false,
-          "height": 0,
+          "height": 36,
           "layer": "",
           "locked": false,
           "name": "stopbean1",
-          "width": 0,
-          "x": 648,
-          "y": 25,
+          "width": 500,
+          "x": 890,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1281,8 +1620,8 @@
           "locked": false,
           "name": "bean2",
           "width": 0,
-          "x": 181,
-          "y": 25,
+          "x": 414,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1296,8 +1635,8 @@
           "locked": false,
           "name": "bean3",
           "width": 0,
-          "x": 157,
-          "y": 25,
+          "x": 390,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1311,8 +1650,8 @@
           "locked": false,
           "name": "text1",
           "width": 0,
-          "x": 160,
-          "y": 267,
+          "x": 384,
+          "y": 256,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1326,8 +1665,8 @@
           "locked": false,
           "name": "text2",
           "width": 0,
-          "x": 545,
-          "y": 266,
+          "x": 800,
+          "y": 256,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1341,9 +1680,9 @@
           "locked": false,
           "name": "answerSheet",
           "width": 120,
-          "x": 336,
-          "y": 241,
-          "zOrder": 2,
+          "x": 576,
+          "y": 224,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1356,9 +1695,9 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 381,
-          "y": 266,
-          "zOrder": 3,
+          "x": 622,
+          "y": 256,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1371,9 +1710,9 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 378,
-          "y": 278,
-          "zOrder": 14,
+          "x": 621,
+          "y": 256,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1386,9 +1725,9 @@
           "locked": false,
           "name": "blueBlock",
           "width": 0,
-          "x": 279,
-          "y": 400,
-          "zOrder": 16,
+          "x": 521,
+          "y": 386,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1401,9 +1740,9 @@
           "locked": false,
           "name": "pinkBlock",
           "width": 0,
-          "x": 337,
-          "y": 402,
-          "zOrder": 17,
+          "x": 582,
+          "y": 388,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1416,24 +1755,9 @@
           "locked": false,
           "name": "pinkBlock",
           "width": 0,
-          "x": 393,
-          "y": 402,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 600,
-          "layer": "",
-          "locked": false,
-          "name": "background",
-          "width": 801,
-          "x": 0,
-          "y": 0,
-          "zOrder": -3,
+          "x": 640,
+          "y": 388,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1446,9 +1770,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 334,
-          "y": 428,
-          "zOrder": 16,
+          "x": 578,
+          "y": 416,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1461,9 +1785,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 391,
-          "y": 428,
-          "zOrder": 17,
+          "x": 638,
+          "y": 416,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1476,9 +1800,54 @@
           "locked": false,
           "name": "back",
           "width": 0,
-          "x": 18,
-          "y": 34,
-          "zOrder": 19,
+          "x": 175,
+          "y": 20,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "back_2",
+          "width": 0,
+          "x": 175,
+          "y": 21,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "background",
+          "width": 0,
+          "x": 0,
+          "y": 0,
+          "zOrder": -1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "playField",
+          "width": 0,
+          "x": 160,
+          "y": 10,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1659,7 +2028,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\stage show.png",
+                      "image": "images\\stageBar.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -2056,45 +2425,6 @@
           ]
         },
         {
-          "name": "background",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\background.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "blockSheet",
           "tags": "",
           "type": "Sprite",
@@ -2151,9 +2481,136 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "back_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "<<BACK",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "name": "background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\background2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "playField",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\playField.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "back_2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -2584,34 +3041,56 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "\"Start\"",
-                "yes"
+                "back_2",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Start\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -2659,7 +3138,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.74
+        "zoomFactor": 0.596
       },
       "objectsGroups": [],
       "variables": [
@@ -2684,11 +3163,11 @@
         {
           "angle": 0,
           "customSize": true,
-          "height": 600,
+          "height": 719,
           "layer": "",
           "locked": false,
           "name": "background",
-          "width": 800,
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": -3,
@@ -2698,15 +3177,15 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 30,
           "layer": "",
           "locked": false,
           "name": "stagebar",
-          "width": 0,
-          "x": 132,
-          "y": -16,
-          "zOrder": -2,
+          "width": 500,
+          "x": 390,
+          "y": 17,
+          "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2719,8 +3198,8 @@
           "locked": false,
           "name": "bean3",
           "width": 0,
-          "x": 157,
-          "y": 25,
+          "x": 390,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2734,9 +3213,9 @@
           "locked": false,
           "name": "bean2",
           "width": 0,
-          "x": 181,
-          "y": 25,
-          "zOrder": 4,
+          "x": 414,
+          "y": 13,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2749,8 +3228,8 @@
           "locked": false,
           "name": "bean1",
           "width": 0,
-          "x": 615,
-          "y": 25,
+          "x": 854,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2764,8 +3243,8 @@
           "locked": false,
           "name": "stopbean2",
           "width": 0,
-          "x": 626,
-          "y": 25,
+          "x": 854,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2779,8 +3258,8 @@
           "locked": false,
           "name": "first",
           "width": 0,
-          "x": 160,
-          "y": 267,
+          "x": 416,
+          "y": 264,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2794,8 +3273,8 @@
           "locked": false,
           "name": "second",
           "width": 0,
-          "x": 545,
-          "y": 266,
+          "x": 800,
+          "y": 258,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -2809,9 +3288,9 @@
           "locked": false,
           "name": "answerSheet",
           "width": 120,
-          "x": 336,
-          "y": 241,
-          "zOrder": 2,
+          "x": 561,
+          "y": 240,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2824,9 +3303,9 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 382,
-          "y": 266,
-          "zOrder": 3,
+          "x": 608,
+          "y": 260,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2839,9 +3318,9 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 381,
-          "y": 264,
-          "zOrder": 12,
+          "x": 604,
+          "y": 271,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2854,9 +3333,9 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 221,
+          "x": 440,
           "y": 401,
-          "zOrder": 13,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2869,9 +3348,9 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 276,
+          "x": 496,
           "y": 400,
-          "zOrder": 14,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2884,9 +3363,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 388,
+          "x": 613,
           "y": 403,
-          "zOrder": 16,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2899,9 +3378,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 444,
+          "x": 670,
           "y": 403,
-          "zOrder": 17,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2914,9 +3393,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 333,
+          "x": 556,
           "y": 403,
-          "zOrder": 15,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2929,9 +3408,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 333,
-          "y": 428,
-          "zOrder": 14,
+          "x": 550,
+          "y": 431,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2944,9 +3423,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 388,
-          "y": 428,
-          "zOrder": 15,
+          "x": 609,
+          "y": 431,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2959,9 +3438,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 444,
-          "y": 428,
-          "zOrder": 16,
+          "x": 668,
+          "y": 431,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2974,9 +3453,39 @@
           "locked": false,
           "name": "back",
           "width": 0,
-          "x": 18,
-          "y": 34,
-          "zOrder": 19,
+          "x": 175,
+          "y": 21,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "back_2",
+          "width": 0,
+          "x": 175,
+          "y": 21,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "playField",
+          "width": 0,
+          "x": 160,
+          "y": 10,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -3001,7 +3510,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\background.png",
+                      "image": "images\\background2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3040,7 +3549,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\stage show.png",
+                      "image": "images\\stageBar.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -3641,7 +4150,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<Back",
+          "string": "<<BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -3649,9 +4158,97 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "back_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "<<BACK",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "name": "playField",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\playField.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "back_2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -4082,34 +4679,56 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "\"Start\"",
-                "yes"
+                "back_2",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Start\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -4181,7 +4800,7 @@
       "instances": [
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 600,
           "layer": "",
           "locked": false,
@@ -4189,22 +4808,7 @@
           "width": 800,
           "x": 0,
           "y": 0,
-          "zOrder": -3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "stagebar",
-          "width": 0,
-          "x": 132,
-          "y": -16,
-          "zOrder": -2,
+          "zOrder": -1,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4217,8 +4821,8 @@
           "locked": false,
           "name": "bean1",
           "width": 0,
-          "x": 615,
-          "y": 25,
+          "x": 854,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4232,8 +4836,8 @@
           "locked": false,
           "name": "bean3",
           "width": 0,
-          "x": 157,
-          "y": 25,
+          "x": 390,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4247,8 +4851,8 @@
           "locked": false,
           "name": "bean2",
           "width": 0,
-          "x": 592,
-          "y": 25,
+          "x": 830,
+          "y": 13,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4262,9 +4866,9 @@
           "locked": false,
           "name": "stopbean3",
           "width": 0,
-          "x": 604,
-          "y": 25,
-          "zOrder": 2,
+          "x": 830,
+          "y": 13,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4277,7 +4881,7 @@
           "locked": false,
           "name": "first",
           "width": 0,
-          "x": 160,
+          "x": 414,
           "y": 267,
           "zOrder": 3,
           "numberProperties": [],
@@ -4292,9 +4896,9 @@
           "locked": false,
           "name": "answerSheet",
           "width": 120,
-          "x": 336,
+          "x": 590,
           "y": 241,
-          "zOrder": 2,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4307,7 +4911,7 @@
           "locked": false,
           "name": "second",
           "width": 0,
-          "x": 545,
+          "x": 799,
           "y": 266,
           "zOrder": 3,
           "numberProperties": [],
@@ -4322,9 +4926,9 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 381,
+          "x": 635,
           "y": 266,
-          "zOrder": 7,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4337,9 +4941,9 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 384,
+          "x": 638,
           "y": 282,
-          "zOrder": 8,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4352,9 +4956,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 342,
+          "x": 596,
           "y": 403,
-          "zOrder": 9,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4367,9 +4971,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 286,
+          "x": 540,
           "y": 403,
-          "zOrder": 8,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4382,9 +4986,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 398,
+          "x": 652,
           "y": 403,
-          "zOrder": 10,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4397,9 +5001,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 454,
+          "x": 708,
           "y": 403,
-          "zOrder": 11,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4412,9 +5016,9 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 227,
+          "x": 481,
           "y": 400,
-          "zOrder": 7,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4427,9 +5031,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 286,
-          "y": 428,
-          "zOrder": 7,
+          "x": 540,
+          "y": 431,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4442,9 +5046,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 342,
-          "y": 428,
-          "zOrder": 8,
+          "x": 596,
+          "y": 431,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4457,9 +5061,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 398,
-          "y": 428,
-          "zOrder": 9,
+          "x": 650,
+          "y": 431,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4472,9 +5076,9 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 454,
-          "y": 428,
-          "zOrder": 10,
+          "x": 706,
+          "y": 431,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4487,9 +5091,59 @@
           "locked": false,
           "name": "back",
           "width": 0,
-          "x": 18,
-          "y": 34,
-          "zOrder": 19,
+          "x": 175,
+          "y": 21,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "back_2",
+          "width": 0,
+          "x": 175,
+          "y": 21,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 30,
+          "layer": "",
+          "locked": false,
+          "name": "stageBar",
+          "width": 500,
+          "x": 390,
+          "y": 17,
+          "zOrder": 2,
+          "numberProperties": [
+            {
+              "name": "animation",
+              "value": 0
+            }
+          ],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "playField",
+          "width": 0,
+          "x": 160,
+          "y": 10,
+          "zOrder": 0,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -4514,46 +5168,7 @@
                   "sprites": [
                     {
                       "hasCustomCollisionMask": false,
-                      "image": "images\\background.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "stagebar",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\stage show.png",
+                      "image": "images\\background2.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -5162,9 +5777,136 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "back_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "<<BACK",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
+        },
+        {
+          "name": "stageBar",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\stageBar.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "playField",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\playField.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "back_2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -5567,10 +6309,12 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Quit"
+                "value": "Scene"
               },
               "parameters": [
-                ""
+                "",
+                "\"Finish\"",
+                "yes"
               ],
               "subInstructions": []
             }
@@ -5594,34 +6338,56 @@
                 ""
               ],
               "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "SourisBouton"
-              },
-              "parameters": [
-                "",
-                "Left"
-              ],
-              "subInstructions": []
             }
           ],
           "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "\"Start\"",
-                "yes"
+                "back_2",
+                ""
               ],
               "subInstructions": []
             }
           ],
-          "events": []
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Start\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
@@ -5669,7 +6435,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.832
+        "zoomFactor": 0.808
       },
       "objectsGroups": [],
       "variables": [
@@ -5680,6 +6446,10 @@
         {
           "name": "hearts",
           "value": "3"
+        },
+        {
+          "name": "countCorrect",
+          "value": "10"
         }
       ],
       "instances": [
@@ -6254,6 +7024,21 @@
           "x": 18,
           "y": 34,
           "zOrder": 19,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "back_2",
+          "width": 0,
+          "x": 18,
+          "y": 34,
+          "zOrder": 37,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7922,9 +8707,58 @@
             "g": 0,
             "r": 0
           }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "back_2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "<<BACK",
+          "font": "",
+          "characterSize": 20,
+          "color": {
+            "b": 27,
+            "g": 2,
+            "r": 208
+          }
         }
       ],
       "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "back_2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
         {
           "disabled": false,
           "folded": false,
@@ -7937,7 +8771,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "xử lý chọn chổi sơn và di chuyển của chổi theo chuột",
+          "comment": "xử lý chọn chổi sơn và di của chổi theo chuột",
           "comment2": ""
         },
         {
@@ -9560,6 +10394,18 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
+                        "1"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -9709,6 +10555,18 @@
                         "fiveMinusOne",
                         "correct",
                         "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
                         "1"
                       ],
                       "subInstructions": []
@@ -9864,6 +10722,18 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
+                        "1"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -10013,6 +10883,18 @@
                         "fourMinusTwo",
                         "correct",
                         "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
                         "1"
                       ],
                       "subInstructions": []
@@ -10168,6 +11050,18 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
+                        "1"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -10317,6 +11211,18 @@
                         "fourAddOne",
                         "correct",
                         "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
                         "1"
                       ],
                       "subInstructions": []
@@ -10472,6 +11378,18 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
+                        "1"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -10621,6 +11539,18 @@
                         "threeAddTwo",
                         "correct",
                         "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
                         "1"
                       ],
                       "subInstructions": []
@@ -10776,6 +11706,18 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
+                        "1"
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -10925,6 +11867,18 @@
                         "fiveMinusFour",
                         "correct",
                         "=",
+                        "1"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "ModVarScene"
+                      },
+                      "parameters": [
+                        "countCorrect",
+                        "-",
                         "1"
                       ],
                       "subInstructions": []
@@ -11196,7 +12150,54 @@
               "subInstructions": []
             }
           ],
-          "actions": [],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Fail Finish\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "VarScene"
+              },
+              "parameters": [
+                "countCorrect",
+                "=",
+                "0"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Finish\"",
+                "yes"
+              ],
+              "subInstructions": []
+            }
+          ],
           "events": []
         },
         {
@@ -11231,15 +12232,232 @@
                 ""
               ],
               "subInstructions": []
-            },
+            }
+          ],
+          "actions": [
             {
               "type": {
                 "inverted": false,
-                "value": "SourisBouton"
+                "value": "Montre"
               },
               "parameters": [
-                "",
-                "Left"
+                "back_2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Start\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Finish",
+      "name": "Finish",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 255,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.904
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "finish",
+          "width": 0,
+          "x": 97,
+          "y": 58,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "goToLession",
+          "width": 0,
+          "x": 312,
+          "y": 462,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "finish",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\finish.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "goToLession",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\goToLesson.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
               ],
               "subInstructions": []
             }
@@ -11248,17 +12466,432 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Scene"
+                "value": "Cache"
               },
               "parameters": [
-                "",
-                "\"Start\"",
-                "yes"
+                "goToLession"
               ],
               "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "goToLession",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "goToLession",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Start\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
+        }
+      ],
+      "layers": [
+        {
+          "name": "",
+          "visibility": true,
+          "cameras": [
+            {
+              "defaultSize": true,
+              "defaultViewport": true,
+              "height": 0,
+              "viewportBottom": 1,
+              "viewportLeft": 0,
+              "viewportRight": 1,
+              "viewportTop": 0,
+              "width": 0
+            }
+          ],
+          "effects": []
+        }
+      ],
+      "behaviorsSharedData": []
+    },
+    {
+      "b": 255,
+      "disableInputWhenNotFocused": true,
+      "mangledName": "Fail_32Finish",
+      "name": "Fail Finish",
+      "oglFOV": 90,
+      "oglZFar": 500,
+      "oglZNear": 1,
+      "r": 255,
+      "standardSortMethod": true,
+      "stopSoundsOnStartup": true,
+      "title": "",
+      "v": 255,
+      "uiSettings": {
+        "grid": false,
+        "gridB": 255,
+        "gridG": 180,
+        "gridHeight": 32,
+        "gridOffsetX": 0,
+        "gridOffsetY": 0,
+        "gridR": 158,
+        "gridWidth": 32,
+        "snap": true,
+        "windowMask": false,
+        "zoomFactor": 0.928
+      },
+      "objectsGroups": [],
+      "variables": [],
+      "instances": [
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 400,
+          "layer": "",
+          "locked": false,
+          "name": "background",
+          "width": 400,
+          "x": 163,
+          "y": 63,
+          "zOrder": 1,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "NewObject",
+          "width": 0,
+          "x": 198,
+          "y": 95,
+          "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "back",
+          "width": 0,
+          "x": 316,
+          "y": 491,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "back_2",
+          "width": 0,
+          "x": 316,
+          "y": 491,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        }
+      ],
+      "objects": [
+        {
+          "name": "background",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\failFinish.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "back_2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\goToLesson.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "NewObject",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Let try \n again",
+          "font": "",
+          "characterSize": 30,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "name": "back",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\goToLesson_2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "events": [
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": true,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "back_2"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "back",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "Montre"
+              },
+              "parameters": [
+                "back_2",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Start\"",
+                    "yes"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         }
       ],
       "layers": [
