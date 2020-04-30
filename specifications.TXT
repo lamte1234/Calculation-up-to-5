@@ -1,2 +1,19 @@
 window: 1280 x 720
-playField: 960 x 620
+playField: 960 x 620 locate 160 x 10
+bean 36 x 36
+
+phần 1:
+
+
+
+
+phần 2: 
+custom size của mỗi hộp sơn và chổi sơn về 50 x 50
+chổi cách sơn 30px in height
+width: paint1: 375
+       paint2: 495
+       paint3: 615
+       paint4: 735
+       paint5: 855
+
+mỗi thành phần của bức tranh custom size về  800 x 600 locate (240;50) riêng door locate (240;56)     
