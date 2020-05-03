@@ -3139,7 +3139,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.596
+        "zoomFactor": 0.932
       },
       "objectsGroups": [],
       "variables": [
@@ -4778,7 +4778,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.808
+        "zoomFactor": 0.544
       },
       "objectsGroups": [],
       "variables": [
@@ -6437,7 +6437,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.808
+        "zoomFactor": 0.688
       },
       "objectsGroups": [],
       "variables": [
@@ -9118,67 +9118,50 @@
             {
               "type": {
                 "inverted": false,
-                "value": "VarScene"
+                "value": "SourisSurObjet"
               },
               "parameters": [
-                "currentAnswer",
-                "=",
-                "0"
+                "brush1",
+                "",
+                "yes",
+                ""
               ],
               "subInstructions": []
-            }
-          ],
-          "actions": [],
-          "events": [
+            },
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "brush1",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
               ],
-              "actions": [
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MettreXY"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "brush1",
+                    "currentAnswer",
                     "=",
-                    "MouseX(, )-25",
-                    "=",
-                    "MouseY(,)-25"
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "currentAnswer",
@@ -9187,58 +9170,91 @@
                   ],
                   "subInstructions": []
                 }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "brush1",
+                "=",
+                "MouseX(, )-25",
+                "=",
+                "MouseY(,)-25"
               ],
-              "events": []
+              "subInstructions": []
             },
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "brush2",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "currentAnswer",
+                "=",
+                "1"
               ],
-              "actions": [
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "brush2",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MettreXY"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "brush2",
+                    "currentAnswer",
                     "=",
-                    "MouseX(, ) - 25",
-                    "=",
-                    "MouseY(, ) - 25"
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "currentAnswer",
@@ -9247,58 +9263,91 @@
                   ],
                   "subInstructions": []
                 }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "brush2",
+                "=",
+                "MouseX(, ) - 25",
+                "=",
+                "MouseY(, ) - 25"
               ],
-              "events": []
+              "subInstructions": []
             },
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "brush3",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "currentAnswer",
+                "=",
+                "2"
               ],
-              "actions": [
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "brush3",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MettreXY"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "brush3",
+                    "currentAnswer",
                     "=",
-                    "MouseX(, ) - 25",
-                    "=",
-                    "MouseY(, ) - 25"
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "currentAnswer",
@@ -9307,58 +9356,91 @@
                   ],
                   "subInstructions": []
                 }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "brush3",
+                "=",
+                "MouseX(, ) - 25",
+                "=",
+                "MouseY(, ) - 25"
               ],
-              "events": []
+              "subInstructions": []
             },
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "brush4",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "currentAnswer",
+                "=",
+                "3"
               ],
-              "actions": [
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "brush4",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MettreXY"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "brush4",
+                    "currentAnswer",
                     "=",
-                    "MouseX(, ) - 25",
-                    "=",
-                    "MouseY(, ) - 25"
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "currentAnswer",
@@ -9367,58 +9449,91 @@
                   ],
                   "subInstructions": []
                 }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "brush4",
+                "=",
+                "MouseX(, ) - 25",
+                "=",
+                "MouseY(, ) - 25"
               ],
-              "events": []
+              "subInstructions": []
             },
             {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Standard",
-              "conditions": [
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisSurObjet"
-                  },
-                  "parameters": [
-                    "brush5",
-                    "",
-                    "yes",
-                    ""
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "SourisBouton"
-                  },
-                  "parameters": [
-                    "",
-                    "Left"
-                  ],
-                  "subInstructions": []
-                }
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "currentAnswer",
+                "=",
+                "4"
               ],
-              "actions": [
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "brush5",
+                "",
+                "yes",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisBouton"
+              },
+              "parameters": [
+                "",
+                "Left"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
                 {
                   "type": {
                     "inverted": false,
-                    "value": "MettreXY"
+                    "value": "VarScene"
                   },
                   "parameters": [
-                    "brush5",
+                    "currentAnswer",
                     "=",
-                    "MouseX(, ) - 25",
-                    "=",
-                    "MouseY(, ) - 25"
+                    "0"
                   ],
                   "subInstructions": []
                 },
                 {
                   "type": {
                     "inverted": false,
-                    "value": "ModVarScene"
+                    "value": "VarScene"
                   },
                   "parameters": [
                     "currentAnswer",
@@ -9427,10 +9542,38 @@
                   ],
                   "subInstructions": []
                 }
-              ],
-              "events": []
+              ]
             }
-          ]
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "MettreXY"
+              },
+              "parameters": [
+                "brush5",
+                "=",
+                "MouseX(, ) - 25",
+                "=",
+                "MouseY(, ) - 25"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ModVarScene"
+              },
+              "parameters": [
+                "currentAnswer",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
         },
         {
           "disabled": false,
