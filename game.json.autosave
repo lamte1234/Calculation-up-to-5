@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\KhaiDv\\Documents\\GitHub\\Calculation-up-to-5\\game.json",
+    "projectFile": "E:\\GitHub\\Calculation-up-to-5\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -854,6 +854,48 @@
         "name": "images\\stageBar.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Sound/blank.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\blank.wav",
+        "userAdded": false
+      },
+      {
+        "file": "Sound/click.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\click.wav",
+        "userAdded": false
+      },
+      {
+        "file": "Sound/true.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\true.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sound/false.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\false.wav",
+        "userAdded": true
+      },
+      {
+        "file": "Sound/win.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\win.wav",
+        "userAdded": false
+      },
+      {
+        "file": "Sound/lose.wav",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\lose.wav",
+        "userAdded": false
       }
     ],
     "resourceFolders": []
@@ -873,7 +915,7 @@
       "r": 255,
       "standardSortMethod": true,
       "stopSoundsOnStartup": true,
-      "title": "",
+      "title": "Calculation up to 5",
       "v": 255,
       "uiSettings": {
         "grid": false,
@@ -886,21 +928,21 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.544
+        "zoomFactor": 0.568
       },
       "objectsGroups": [],
       "variables": [],
       "instances": [
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 250,
           "layer": "",
           "locked": false,
           "name": "game1",
-          "width": 0,
-          "x": 360,
-          "y": 220,
+          "width": 250,
+          "x": 254,
+          "y": 180,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -908,14 +950,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 250,
           "layer": "",
           "locked": false,
           "name": "game2",
-          "width": 0,
-          "x": 740,
-          "y": 220,
+          "width": 250,
+          "x": 720,
+          "y": 180,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -923,14 +965,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 42,
           "layer": "",
           "locked": false,
           "name": "tiltle1",
-          "width": 0,
-          "x": 375,
-          "y": 400,
+          "width": 297,
+          "x": 238,
+          "y": 453,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -944,8 +986,8 @@
           "locked": false,
           "name": "title2",
           "width": 0,
-          "x": 750,
-          "y": 400,
+          "x": 704,
+          "y": 453,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -959,8 +1001,8 @@
           "locked": false,
           "name": "quit",
           "width": 0,
-          "x": 50,
-          "y": 660,
+          "x": 53,
+          "y": 645,
           "zOrder": 1,
           "numberProperties": [],
           "stringProperties": [],
@@ -968,14 +1010,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 250,
           "layer": "",
           "locked": false,
           "name": "game1_2",
-          "width": 8,
-          "x": 360,
-          "y": 220,
+          "width": 250,
+          "x": 254,
+          "y": 180,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -983,14 +1025,14 @@
         },
         {
           "angle": 0,
-          "customSize": false,
-          "height": 0,
+          "customSize": true,
+          "height": 250,
           "layer": "",
           "locked": false,
           "name": "game2_2",
-          "width": 0,
-          "x": 740,
-          "y": 220,
+          "width": 250,
+          "x": 720,
+          "y": 180,
           "zOrder": 2,
           "numberProperties": [],
           "stringProperties": [],
@@ -1004,9 +1046,24 @@
           "locked": false,
           "name": "quit_2",
           "width": 0,
-          "x": 50,
-          "y": 660,
+          "x": 53,
+          "y": 645,
           "zOrder": 2,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Gamename",
+          "width": 0,
+          "x": 448,
+          "y": 69,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -1181,7 +1238,7 @@
           "behaviors": [],
           "string": "Various equations",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 35,
           "color": {
             "b": 0,
             "g": 0,
@@ -1200,7 +1257,7 @@
           "behaviors": [],
           "string": "Coloring. Add and \n  subtract up to 5",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 35,
           "color": {
             "b": 0,
             "g": 0,
@@ -1217,9 +1274,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<QUIT",
+          "string": "< QUIT",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 35,
           "color": {
             "b": 0,
             "g": 0,
@@ -1236,13 +1293,32 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<QUIT",
+          "string": "< QUIT",
           "font": "",
-          "characterSize": 20,
+          "characterSize": 35,
           "color": {
             "b": 27,
             "g": 2,
             "r": 208
+          }
+        },
+        {
+          "bold": true,
+          "italic": false,
+          "name": "Gamename",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "Calculation up to 5",
+          "font": "",
+          "characterSize": 40,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         }
       ],
@@ -1291,6 +1367,20 @@
               },
               "parameters": [
                 "quit_2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -1357,6 +1447,20 @@
                     "",
                     "\"Game1-1\"",
                     "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -1427,6 +1531,20 @@
                     "no"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -1493,6 +1611,20 @@
                     ""
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -1545,7 +1677,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.616
+        "zoomFactor": 0.448
       },
       "objectsGroups": [],
       "variables": [
@@ -2553,7 +2685,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -2572,7 +2704,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -2802,6 +2934,20 @@
               },
               "parameters": [
                 "back_2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -3058,6 +3204,20 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\true.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -3282,6 +3442,20 @@
                     "",
                     "\"Start\"",
                     "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -4374,7 +4548,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -4393,7 +4567,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -4658,6 +4832,20 @@
                 "\"0\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -4838,6 +5026,20 @@
                     "complete",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\true.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -6169,7 +6371,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -6188,7 +6390,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -6375,6 +6577,20 @@
                 "\"0\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -6555,6 +6771,20 @@
                     "complete",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\true.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -7931,7 +8161,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -7950,7 +8180,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -8096,6 +8326,20 @@
                 "answer",
                 "=",
                 "\"0\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -8278,6 +8522,20 @@
                     "complete",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\true.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -9596,7 +9854,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -9615,7 +9873,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -9802,6 +10060,20 @@
                 "\"0\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -9982,6 +10254,20 @@
                     "complete",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\true.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -11300,7 +11586,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -11319,7 +11605,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -11506,6 +11792,20 @@
                 "\"0\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -11686,6 +11986,20 @@
                     "complete",
                     "=",
                     "1"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\true.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
@@ -11966,7 +12280,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.688
+        "zoomFactor": 0.496
       },
       "objectsGroups": [],
       "variables": [
@@ -12577,11 +12891,11 @@
         {
           "angle": 0,
           "customSize": false,
-          "height": 0,
+          "height": 720,
           "layer": "",
           "locked": false,
           "name": "background",
-          "width": 0,
+          "width": 1280,
           "x": 0,
           "y": 0,
           "zOrder": -1,
@@ -14320,7 +14634,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -14339,7 +14653,7 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "<<BACK",
+          "string": "< BACK",
           "font": "",
           "characterSize": 20,
           "color": {
@@ -14618,6 +14932,20 @@
               },
               "parameters": [
                 "stopbean1"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
               ],
               "subInstructions": []
             }
@@ -16436,6 +16764,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -16505,6 +16847,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -16600,6 +16956,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -16669,6 +17039,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -16764,6 +17148,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -16833,6 +17231,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -16928,6 +17340,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -16997,6 +17423,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -17092,6 +17532,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -17161,6 +17615,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -17256,6 +17724,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -17325,6 +17807,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -17420,6 +17916,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -17489,6 +17999,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -17584,6 +18108,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -17653,6 +18191,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -17748,6 +18300,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -17817,6 +18383,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -17912,6 +18492,20 @@
                         "1"
                       ],
                       "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\true.wav",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
                     }
                   ],
                   "events": []
@@ -17981,6 +18575,20 @@
                         "currentAnswer",
                         "=",
                         "0"
+                      ],
+                      "subInstructions": []
+                    },
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\false.wav",
+                        "",
+                        "",
+                        ""
                       ],
                       "subInstructions": []
                     }
@@ -18450,6 +19058,20 @@
                 ""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\click.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
             }
           ],
           "events": [
@@ -18658,6 +19280,54 @@
           "conditions": [
             {
               "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\win.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": true,
                 "value": "DepartScene"
               },
@@ -18743,6 +19413,20 @@
                     "yes"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -18795,7 +19479,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.178
+        "zoomFactor": 0.37
       },
       "objectsGroups": [],
       "variables": [],
@@ -19007,6 +19691,54 @@
           "conditions": [
             {
               "type": {
+                "inverted": false,
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\blank.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\lose.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
                 "inverted": true,
                 "value": "DepartScene"
               },
@@ -19090,6 +19822,20 @@
                     "",
                     "\"Start\"",
                     "yes"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "",
+                    "",
+                    ""
                   ],
                   "subInstructions": []
                 }
