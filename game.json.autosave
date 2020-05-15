@@ -994,7 +994,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.544
+        "zoomFactor": 0.376
       },
       "objectsGroups": [],
       "variables": [],
@@ -12350,7 +12350,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.664
+        "zoomFactor": 0.736
       },
       "objectsGroups": [],
       "variables": [
@@ -13769,7 +13769,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fiveMinusFour",
           "smoothed": true,
@@ -13788,7 +13788,7 @@
           ],
           "behaviors": [],
           "string": "\n\n                          5  -  4",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13797,7 +13797,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "oneAddOne",
           "smoothed": true,
@@ -13816,7 +13816,7 @@
           ],
           "behaviors": [],
           "string": "\n\n   \n   1  +  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13825,7 +13825,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "twoMinusOne",
           "smoothed": true,
@@ -13844,7 +13844,7 @@
           ],
           "behaviors": [],
           "string": "\n\n\n\n\n        2  -  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13853,7 +13853,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fiveMinusOne",
           "smoothed": true,
@@ -13871,8 +13871,8 @@
             }
           ],
           "behaviors": [],
-          "string": "\n\n\n\n\n \n\n\n 5  -  1",
-          "font": "",
+          "string": "\n\n\n\n\n \n\n\n     5  -  1",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13881,7 +13881,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fourMinusThree",
           "smoothed": true,
@@ -13900,7 +13900,7 @@
           ],
           "behaviors": [],
           "string": "                                    4  -  3",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13909,7 +13909,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fourMinusTwo",
           "smoothed": true,
@@ -13928,7 +13928,7 @@
           ],
           "behaviors": [],
           "string": "\n    \n\n\n   4  -  2",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13937,7 +13937,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "threeAddOne",
           "smoothed": true,
@@ -13956,7 +13956,7 @@
           ],
           "behaviors": [],
           "string": "\n              3  +  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13965,7 +13965,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fiveMinusTwo",
           "smoothed": true,
@@ -13984,7 +13984,7 @@
           ],
           "behaviors": [],
           "string": "  \n\n\n  5  -  2",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -13993,7 +13993,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fourAddOne",
           "smoothed": true,
@@ -14012,7 +14012,7 @@
           ],
           "behaviors": [],
           "string": "      \n               4  +  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -14021,7 +14021,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "threeAddTwo",
           "smoothed": true,
@@ -14040,7 +14040,7 @@
           ],
           "behaviors": [],
           "string": "\n                  3  +  2",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21349,7 +21349,7 @@
           ],
           "behaviors": [],
           "string": "\n\n                          5  -  4",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21377,7 +21377,7 @@
           ],
           "behaviors": [],
           "string": "\n\n   \n   1  +  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21405,7 +21405,7 @@
           ],
           "behaviors": [],
           "string": "\n\n\n\n\n        2  -  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21433,7 +21433,7 @@
           ],
           "behaviors": [],
           "string": "\n\n\n\n\n \n\n\n 5  -  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21461,7 +21461,7 @@
           ],
           "behaviors": [],
           "string": "                                    4  -  3",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21489,7 +21489,7 @@
           ],
           "behaviors": [],
           "string": "\n    \n\n\n   4  -  2",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21517,7 +21517,7 @@
           ],
           "behaviors": [],
           "string": "\n              3  +  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21545,7 +21545,7 @@
           ],
           "behaviors": [],
           "string": "  \n\n\n  5  -  2",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21573,7 +21573,7 @@
           ],
           "behaviors": [],
           "string": "      \n               4  +  1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21601,7 +21601,7 @@
           ],
           "behaviors": [],
           "string": "\n                  3  +  2",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
