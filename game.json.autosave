@@ -962,6 +962,31 @@
         "metadata": "",
         "name": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/speaker1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\speaker1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "images/speaker2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "images\\speaker2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Sound/voice.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\voice.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -13081,6 +13106,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "speaker",
+          "width": 50,
+          "x": 190,
+          "y": 80,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -15106,6 +15146,74 @@
               ]
             }
           ]
+        },
+        {
+          "name": "speaker",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "standard",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\speaker1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "chosen",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\speaker2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -15182,6 +15290,17 @@
                 "135\n"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "speaker",
+                "\"standard\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -15197,7 +15316,7 @@
                 "value": "SourisSurObjet"
               },
               "parameters": [
-                "startButton",
+                "startButtonBound",
                 "",
                 "",
                 ""
@@ -15325,6 +15444,76 @@
             {
               "disabled": false,
               "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisSurObjet"
+                  },
+                  "parameters": [
+                    "speaker",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SetAnimationName"
+                  },
+                  "parameters": [
+                    "speaker",
+                    "\"chosen\""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": [
+                {
+                  "disabled": false,
+                  "folded": false,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "SourisBouton"
+                      },
+                      "parameters": [
+                        "",
+                        "Left"
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "inverted": false,
+                        "value": "PlaySound"
+                      },
+                      "parameters": [
+                        "",
+                        "Sound\\voice.mp3",
+                        "",
+                        "",
+                        ""
+                      ],
+                      "subInstructions": []
+                    }
+                  ],
+                  "events": []
+                }
+              ]
+            },
+            {
+              "disabled": false,
+              "folded": false,
               "type": "BuiltinCommonInstructions::Comment",
               "color": {
                 "b": 109,
@@ -15426,6 +15615,18 @@
                     "1"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush1",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -15517,6 +15718,18 @@
                     "currentAnswer",
                     "=",
                     "2"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush2",
+                    "=",
+                    "5"
                   ],
                   "subInstructions": []
                 }
@@ -15612,6 +15825,18 @@
                     "3"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush3",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -15705,6 +15930,18 @@
                     "4"
                   ],
                   "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush4",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
                 }
               ],
               "events": []
@@ -15794,6 +16031,18 @@
                   },
                   "parameters": [
                     "currentAnswer",
+                    "=",
+                    "5"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush5",
                     "=",
                     "5"
                   ],
@@ -17027,6 +17276,66 @@
                     "855",
                     "=",
                     "545"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush1",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush2",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush3",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush4",
+                    "=",
+                    "4"
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "brush5",
+                    "=",
+                    "4"
                   ],
                   "subInstructions": []
                 }
@@ -19930,7 +20239,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.688
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [
@@ -20642,6 +20951,21 @@
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 50,
+          "layer": "",
+          "locked": false,
+          "name": "speaker",
+          "width": 50,
+          "x": 190,
+          "y": 80,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
         }
       ],
       "objects": [
@@ -21330,7 +21654,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fiveMinusFour",
           "smoothed": true,
@@ -21358,7 +21682,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "oneAddOne",
           "smoothed": true,
@@ -21386,7 +21710,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "twoMinusOne",
           "smoothed": true,
@@ -21414,7 +21738,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fiveMinusOne",
           "smoothed": true,
@@ -21442,7 +21766,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fourMinusThree",
           "smoothed": true,
@@ -21470,7 +21794,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fourMinusTwo",
           "smoothed": true,
@@ -21498,7 +21822,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "threeAddOne",
           "smoothed": true,
@@ -21526,7 +21850,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fiveMinusTwo",
           "smoothed": true,
@@ -21554,7 +21878,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "fourAddOne",
           "smoothed": true,
@@ -21582,7 +21906,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "threeAddTwo",
           "smoothed": true,
@@ -22599,6 +22923,74 @@
               ]
             }
           ]
+        },
+        {
+          "name": "speaker",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "standard",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\speaker1.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "name": "chosen",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\speaker2.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -22648,9 +23040,90 @@
                 "stopbean2"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "speaker",
+                "\"standard\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
+        },
+        {
+          "disabled": false,
+          "folded": false,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SourisSurObjet"
+              },
+              "parameters": [
+                "speaker",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "inverted": false,
+                "value": "SetAnimationName"
+              },
+              "parameters": [
+                "speaker",
+                "\"chosen\""
+              ],
+              "subInstructions": []
+            }
+          ],
+          "events": [
+            {
+              "disabled": false,
+              "folded": false,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "SourisBouton"
+                  },
+                  "parameters": [
+                    "",
+                    "Left"
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySound"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\voice.mp3",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                }
+              ],
+              "events": []
+            }
+          ]
         },
         {
           "disabled": false,
@@ -22756,6 +23229,18 @@
                 "1"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush1",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -22847,6 +23332,18 @@
                 "currentAnswer",
                 "=",
                 "2"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush2",
+                "=",
+                "5"
               ],
               "subInstructions": []
             }
@@ -22942,6 +23439,18 @@
                 "3"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush3",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -23035,6 +23544,18 @@
                 "4"
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush4",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -23124,6 +23645,18 @@
               },
               "parameters": [
                 "currentAnswer",
+                "=",
+                "5"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush5",
                 "=",
                 "5"
               ],
@@ -24357,6 +24890,66 @@
                 "855",
                 "=",
                 "545"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush1",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush4",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush3",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush2",
+                "=",
+                "4"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "brush5",
+                "=",
+                "4"
               ],
               "subInstructions": []
             }
