@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\Thanh Dat\\Downloads\\Calculation-up-to-5-master\\Calculation-up-to-5-master\\game.json",
+    "projectFile": "D:\\GDevelop Projects\\StudyApp\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -4376,7 +4376,7 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 676,
+          "x": 679,
           "y": 407,
           "zOrder": 32,
           "numberProperties": [],
@@ -15531,6 +15531,10 @@
         {
           "name": "start",
           "value": "0"
+        },
+        {
+          "name": "forSpeaker",
+          "value": "0"
         }
       ],
       "instances": [
@@ -18697,11 +18701,12 @@
                     {
                       "type": {
                         "inverted": false,
-                        "value": "PlaySound"
+                        "value": "PlaySoundCanal"
                       },
                       "parameters": [
                         "",
                         "Sound\\voice.mp3",
+                        "1",
                         "",
                         "",
                         ""
@@ -26311,11 +26316,12 @@
                 {
                   "type": {
                     "inverted": false,
-                    "value": "PlaySound"
+                    "value": "PlaySoundCanal"
                   },
                   "parameters": [
                     "",
                     "Sound\\voice.mp3",
+                    "1",
                     "",
                     "",
                     ""
