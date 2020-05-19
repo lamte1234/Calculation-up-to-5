@@ -26,8 +26,8 @@
     "windowWidth": 1280,
     "windowHeight": 720,
     "latestCompilationDirectory": "",
-    "maxFPS": 60,
-    "minFPS": 20,
+    "maxFPS": 90,
+    "minFPS": 90,
     "verticalSync": false,
     "platformSpecificAssets": {},
     "loadingScreen": {
@@ -1749,7 +1749,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "first",
+          "name": "left1",
           "width": 0,
           "x": 414,
           "y": 256,
@@ -1779,7 +1779,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "second",
+          "name": "right1",
           "width": 0,
           "x": 799,
           "y": 256,
@@ -2360,9 +2360,9 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "first",
+          "name": "left1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -2379,9 +2379,9 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "second",
+          "name": "right1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -2670,7 +2670,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer",
           "smoothed": true,
@@ -3934,7 +3934,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "first",
+          "name": "left1",
           "width": 0,
           "x": 414,
           "y": 170,
@@ -3964,7 +3964,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "second",
+          "name": "right1",
           "width": 0,
           "x": 799,
           "y": 170,
@@ -4620,9 +4620,9 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "first",
+          "name": "left1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -4639,9 +4639,9 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "second",
+          "name": "right1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -4930,7 +4930,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer",
           "smoothed": true,
@@ -5228,7 +5228,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer2",
           "smoothed": true,
@@ -5254,7 +5254,7 @@
           "behaviors": []
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "right2",
           "smoothed": true,
@@ -5264,7 +5264,7 @@
           "variables": [],
           "behaviors": [],
           "string": "=    3",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -5273,7 +5273,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "left2",
           "smoothed": true,
@@ -5283,7 +5283,7 @@
           "variables": [],
           "behaviors": [],
           "string": "4    -",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -6722,7 +6722,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "text1",
+          "name": "left1",
           "width": 0,
           "x": 414,
           "y": 170,
@@ -6737,7 +6737,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "text2",
+          "name": "right1",
           "width": 0,
           "x": 789,
           "y": 170,
@@ -7382,9 +7382,9 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "text1",
+          "name": "left1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -7392,7 +7392,26 @@
           "variables": [],
           "behaviors": [],
           "string": "1    +",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "right1",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "=    3",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -7447,26 +7466,7 @@
           ]
         },
         {
-          "bold": true,
-          "italic": false,
-          "name": "text2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "=    3",
-          "font": "",
-          "characterSize": 60,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer",
           "smoothed": true,
@@ -7475,8 +7475,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "_",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -7912,7 +7912,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "left2",
           "smoothed": true,
@@ -7922,7 +7922,7 @@
           "variables": [],
           "behaviors": [],
           "string": "2    +",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -7931,7 +7931,7 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "right2",
           "smoothed": true,
@@ -7941,7 +7941,7 @@
           "variables": [],
           "behaviors": [],
           "string": "=    3",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -7966,8 +7966,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "0",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 27,
@@ -9460,7 +9460,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "first",
+          "name": "left1",
           "width": 0,
           "x": 413,
           "y": 170,
@@ -9475,7 +9475,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "second",
+          "name": "right1",
           "width": 0,
           "x": 800,
           "y": 170,
@@ -10180,9 +10180,9 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "first",
+          "name": "left1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -10190,7 +10190,7 @@
           "variables": [],
           "behaviors": [],
           "string": "5    -",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -10199,9 +10199,9 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "second",
+          "name": "right1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -10209,7 +10209,7 @@
           "variables": [],
           "behaviors": [],
           "string": "=    2",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -10257,7 +10257,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer",
           "smoothed": true,
@@ -10266,8 +10266,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "_",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -10671,7 +10671,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer2",
           "smoothed": true,
@@ -10680,8 +10680,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "0",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 27,
@@ -10697,7 +10697,7 @@
           "behaviors": []
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "left2",
           "smoothed": true,
@@ -10707,7 +10707,26 @@
           "variables": [],
           "behaviors": [],
           "string": "5    -",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "characterSize": 60,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "right2",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "=    3",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -11025,25 +11044,6 @@
               ]
             }
           ]
-        },
-        {
-          "bold": true,
-          "italic": false,
-          "name": "right2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "=    3",
-          "font": "",
-          "characterSize": 60,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
         }
       ],
       "events": [
@@ -12192,7 +12192,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "first",
+          "name": "left1",
           "width": 0,
           "x": 414,
           "y": 256,
@@ -12222,7 +12222,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "second",
+          "name": "right1",
           "width": 0,
           "x": 799,
           "y": 256,
@@ -12758,9 +12758,9 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "first",
+          "name": "left1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -12768,7 +12768,7 @@
           "variables": [],
           "behaviors": [],
           "string": "5    -",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -12777,9 +12777,9 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "second",
+          "name": "right1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -12787,7 +12787,7 @@
           "variables": [],
           "behaviors": [],
           "string": "=    1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -13068,7 +13068,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer",
           "smoothed": true,
@@ -13077,8 +13077,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "_",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -13808,7 +13808,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.664
+        "zoomFactor": 0.688
       },
       "objectsGroups": [],
       "variables": [
@@ -13896,7 +13896,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "first",
+          "name": "left1",
           "width": 0,
           "x": 414,
           "y": 256,
@@ -13926,7 +13926,7 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "second",
+          "name": "right1",
           "width": 0,
           "x": 790,
           "y": 256,
@@ -14462,9 +14462,9 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "first",
+          "name": "left1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -14472,7 +14472,7 @@
           "variables": [],
           "behaviors": [],
           "string": "2    +",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -14481,9 +14481,9 @@
           }
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
-          "name": "second",
+          "name": "right1",
           "smoothed": true,
           "tags": "",
           "type": "TextObject::Text",
@@ -14491,7 +14491,7 @@
           "variables": [],
           "behaviors": [],
           "string": "=    5",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -14772,7 +14772,7 @@
           ]
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer",
           "smoothed": true,
@@ -14781,8 +14781,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "_",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
