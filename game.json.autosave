@@ -1028,7 +1028,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.376
+        "zoomFactor": 0.592
       },
       "objectsGroups": [],
       "variables": [],
@@ -1322,7 +1322,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Various equations",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -1341,7 +1341,7 @@
           "variables": [],
           "behaviors": [],
           "string": "Coloring. Add and \n  subtract up to 5",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -2370,7 +2370,7 @@
           "variables": [],
           "behaviors": [],
           "string": "3    +",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -2389,7 +2389,7 @@
           "variables": [],
           "behaviors": [],
           "string": "=    4",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -2679,8 +2679,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "_",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -4630,7 +4630,7 @@
           "variables": [],
           "behaviors": [],
           "string": "4    -",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -4649,7 +4649,7 @@
           "variables": [],
           "behaviors": [],
           "string": "=    1",
-          "font": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -4939,8 +4939,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "_",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 0,
@@ -5237,8 +5237,8 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "0",
-          "font": "",
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 60,
           "color": {
             "b": 27,
