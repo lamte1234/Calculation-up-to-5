@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "C:\\Users\\KhaiDv\\Documents\\GitHub\\Calculation-up-to-5\\game.json",
+    "projectFile": "D:\\GDevelop Projects\\StudyApp\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -996,6 +996,13 @@
         "name": "images\\matte.png",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "file": "Font/noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1041,7 +1048,7 @@
           "locked": false,
           "name": "game1",
           "width": 0,
-          "x": 360,
+          "x": 250,
           "y": 220,
           "zOrder": 1,
           "numberProperties": [],
@@ -1056,7 +1063,7 @@
           "locked": false,
           "name": "game2",
           "width": 0,
-          "x": 740,
+          "x": 850,
           "y": 220,
           "zOrder": 1,
           "numberProperties": [],
@@ -1071,7 +1078,7 @@
           "locked": false,
           "name": "tiltle1",
           "width": 0,
-          "x": 375,
+          "x": 265,
           "y": 400,
           "zOrder": 3,
           "numberProperties": [],
@@ -1086,7 +1093,7 @@
           "locked": false,
           "name": "title2",
           "width": 0,
-          "x": 750,
+          "x": 860,
           "y": 400,
           "zOrder": 4,
           "numberProperties": [],
@@ -1116,7 +1123,7 @@
           "locked": false,
           "name": "game1_2",
           "width": 8,
-          "x": 360,
+          "x": 250,
           "y": 220,
           "zOrder": 2,
           "numberProperties": [],
@@ -1131,7 +1138,7 @@
           "locked": false,
           "name": "game2_2",
           "width": 0,
-          "x": 740,
+          "x": 850,
           "y": 220,
           "zOrder": 2,
           "numberProperties": [],
@@ -1360,7 +1367,7 @@
           "variables": [],
           "behaviors": [],
           "string": "< Exit",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -1379,7 +1386,7 @@
           "variables": [],
           "behaviors": [],
           "string": "< Exit",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 27,
@@ -1493,6 +1500,21 @@
                 {
                   "type": {
                     "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
+                {
+                  "type": {
+                    "inverted": false,
                     "value": "Scene"
                   },
                   "parameters": [
@@ -1558,6 +1580,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -1687,7 +1724,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.52
+        "zoomFactor": 0.904
       },
       "objectsGroups": [],
       "variables": [
@@ -1763,23 +1800,8 @@
           "locked": false,
           "name": "left1",
           "width": 0,
-          "x": 410,
+          "x": 540,
           "y": 150,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet",
-          "width": 120,
-          "x": 603,
-          "y": 120,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -1793,7 +1815,7 @@
           "locked": false,
           "name": "right1",
           "width": 0,
-          "x": 797,
+          "x": 670,
           "y": 150,
           "zOrder": 3,
           "numberProperties": [],
@@ -1806,25 +1828,10 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "Answer",
-          "width": 0,
-          "x": 648,
-          "y": 152,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 650,
-          "y": 146,
+          "x": 628,
+          "y": 147,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -1838,7 +1845,7 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 515,
+          "x": 491,
           "y": 400,
           "zOrder": 3,
           "numberProperties": [],
@@ -1853,7 +1860,7 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 569,
+          "x": 540,
           "y": 431,
           "zOrder": 3,
           "numberProperties": [],
@@ -1868,7 +1875,7 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 623,
+          "x": 599,
           "y": 431,
           "zOrder": 4,
           "numberProperties": [],
@@ -1883,7 +1890,7 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 680,
+          "x": 653,
           "y": 431,
           "zOrder": 5,
           "numberProperties": [],
@@ -1901,21 +1908,6 @@
           "x": 175,
           "y": 21,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2038,7 +2030,7 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 569,
+          "x": 545,
           "y": 400,
           "zOrder": 4,
           "numberProperties": [],
@@ -2053,7 +2045,7 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 623,
+          "x": 599,
           "y": 400,
           "zOrder": 5,
           "numberProperties": [],
@@ -2068,7 +2060,7 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 680,
+          "x": 657,
           "y": 403,
           "zOrder": 6,
           "numberProperties": [],
@@ -2096,71 +2088,11 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "startButton_1",
-          "width": 0,
-          "x": 598,
-          "y": 213,
-          "zOrder": 10,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "startButtonBound",
-          "width": 0,
-          "x": 471,
-          "y": 131,
-          "zOrder": 9,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 570,
-          "layer": "",
-          "locked": false,
-          "name": "matte",
-          "width": 960,
-          "x": 162,
-          "y": 55,
-          "zOrder": 8,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "left2",
           "width": 0,
-          "x": 410,
-          "y": 285,
-          "zOrder": 11,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 116,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet2",
-          "width": 121,
-          "x": 603,
-          "y": 256,
-          "zOrder": 12,
+          "x": 540,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2173,9 +2105,9 @@
           "locked": false,
           "name": "right2",
           "width": 0,
-          "x": 797,
-          "y": 285,
-          "zOrder": 13,
+          "x": 670,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2188,9 +2120,9 @@
           "locked": false,
           "name": "answer2",
           "width": 0,
-          "x": 652,
-          "y": 278,
-          "zOrder": 14,
+          "x": 624,
+          "y": 294,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2203,9 +2135,9 @@
           "locked": false,
           "name": "Answer2",
           "width": 0,
-          "x": 649,
-          "y": 282,
-          "zOrder": 15,
+          "x": 630,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2218,9 +2150,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 512,
+          "x": 491,
           "y": 400,
-          "zOrder": 16,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2233,9 +2165,9 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 568,
+          "x": 549,
           "y": 403,
-          "zOrder": 17,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2248,9 +2180,9 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 623,
+          "x": 603,
           "y": 403,
-          "zOrder": 18,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2263,9 +2195,114 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 677,
-          "y": 404,
-          "zOrder": 19,
+          "x": 657,
+          "y": 403,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet",
+          "width": 0,
+          "x": 610,
+          "y": 130,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet2",
+          "width": 0,
+          "x": 610,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Answer",
+          "width": 0,
+          "x": 630,
+          "y": 150,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "startButtonBound",
+          "width": 0,
+          "x": 460,
+          "y": 135,
+          "zOrder": 9,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "startButton_1",
+          "width": 0,
+          "x": 580,
+          "y": 235,
+          "zOrder": 10,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "Answer2",
+          "width": 0,
+          "x": 630,
+          "y": 300,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": true,
+          "height": 570,
+          "layer": "",
+          "locked": false,
+          "name": "matte",
+          "width": 960,
+          "x": 160,
+          "y": 55,
+          "zOrder": 8,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -2468,84 +2505,6 @@
           ]
         },
         {
-          "name": "answerSheet2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "answerSheet",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": false,
           "italic": false,
           "name": "left2",
@@ -2555,9 +2514,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "1    +",
+          "string": "1  +",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -2574,9 +2533,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "3    +",
+          "string": "3  +",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -2593,9 +2552,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    4",
+          "string": "=  4",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -2612,9 +2571,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    4",
+          "string": "=  4",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -3177,26 +3136,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
-          "color": {
-            "b": 0,
-            "g": 0,
-            "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "Answer",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -3267,31 +3207,12 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back_2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
           }
         },
         {
@@ -3634,6 +3555,103 @@
               ]
             }
           ]
+        },
+        {
+          "name": "answerSheet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "answerSheet2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "bold": false,
+          "italic": false,
+          "name": "Answer",
+          "smoothed": true,
+          "tags": "",
+          "type": "TextObject::Text",
+          "underlined": false,
+          "variables": [],
+          "behaviors": [],
+          "string": "",
+          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "characterSize": 45,
+          "color": {
+            "b": 0,
+            "g": 0,
+            "r": 0
+          }
         }
       ],
       "events": [
@@ -3654,16 +3672,6 @@
             }
           ],
           "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "back_2"
-              ],
-              "subInstructions": []
-            },
             {
               "type": {
                 "inverted": false,
@@ -3698,6 +3706,17 @@
                 "460",
                 "=",
                 "135\n"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "back",
+                "\"59;59;152\""
               ],
               "subInstructions": []
             }
@@ -3781,6 +3800,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -4791,11 +4825,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -4819,6 +4853,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -4882,7 +4931,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.562
+        "zoomFactor": 0.778
       },
       "objectsGroups": [],
       "variables": [
@@ -4969,23 +5018,8 @@
           "locked": false,
           "name": "left1",
           "width": 0,
-          "x": 414,
-          "y": 170,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet",
-          "width": 120,
-          "x": 600,
-          "y": 138,
+          "x": 540,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -4999,8 +5033,8 @@
           "locked": false,
           "name": "right1",
           "width": 0,
-          "x": 799,
-          "y": 170,
+          "x": 670,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5014,8 +5048,8 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 643,
-          "y": 170,
+          "x": 630,
+          "y": 150,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5029,8 +5063,8 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 646,
-          "y": 170,
+          "x": 622,
+          "y": 147,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -5044,8 +5078,8 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 505,
-          "y": 404,
+          "x": 780,
+          "y": 100,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -5059,39 +5093,39 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 560,
-          "y": 431,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "blockSheet",
-          "width": 0,
-          "x": 620,
-          "y": 431,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "blockSheet",
-          "width": 0,
-          "x": 676,
-          "y": 431,
+          "x": 946,
+          "y": 131,
           "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "blockSheet",
+          "width": 0,
+          "x": 838,
+          "y": 131,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "blockSheet",
+          "width": 0,
+          "x": 892,
+          "y": 131,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5107,21 +5141,6 @@
           "x": 175,
           "y": 21,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5171,7 +5190,7 @@
           "width": 0,
           "x": 414,
           "y": 13,
-          "zOrder": 8,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5186,7 +5205,7 @@
           "width": 0,
           "x": 438,
           "y": 13,
-          "zOrder": 9,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5201,7 +5220,7 @@
           "width": 0,
           "x": 462,
           "y": 13,
-          "zOrder": 10,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5216,7 +5235,7 @@
           "width": 0,
           "x": 486,
           "y": 13,
-          "zOrder": 11,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5231,52 +5250,37 @@
           "width": 0,
           "x": 390,
           "y": 13,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "pinkblock",
-          "width": 0,
-          "x": 562,
-          "y": 407,
-          "zOrder": 18,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "pinkblock",
-          "width": 0,
-          "x": 619,
-          "y": 407,
-          "zOrder": 19,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet2",
-          "width": 120,
-          "x": 600,
-          "y": 265,
           "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "pinkblock",
+          "width": 0,
+          "x": 838,
+          "y": 103,
+          "zOrder": 4,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "pinkblock",
+          "width": 0,
+          "x": 892,
+          "y": 103,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5289,9 +5293,9 @@
           "locked": false,
           "name": "Answer2",
           "width": 0,
-          "x": 643,
-          "y": 297,
-          "zOrder": 21,
+          "x": 630,
+          "y": 300,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5304,9 +5308,9 @@
           "locked": false,
           "name": "answer2",
           "width": 0,
-          "x": 646,
-          "y": 297,
-          "zOrder": 22,
+          "x": 623,
+          "y": 292,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5319,9 +5323,9 @@
           "locked": false,
           "name": "right2",
           "width": 0,
-          "x": 799,
-          "y": 297,
-          "zOrder": 23,
+          "x": 670,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5334,9 +5338,9 @@
           "locked": false,
           "name": "left2",
           "width": 0,
-          "x": 414,
-          "y": 297,
-          "zOrder": 24,
+          "x": 540,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5349,9 +5353,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 676,
-          "y": 407,
-          "zOrder": 25,
+          "x": 946,
+          "y": 103,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5364,9 +5368,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 505,
-          "y": 404,
-          "zOrder": 26,
+          "x": 780,
+          "y": 250,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5379,9 +5383,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 562,
-          "y": 404,
-          "zOrder": 30,
+          "x": 834,
+          "y": 250,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5394,9 +5398,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 618,
-          "y": 404,
-          "zOrder": 31,
+          "x": 888,
+          "y": 250,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5409,9 +5413,54 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 679,
-          "y": 407,
-          "zOrder": 32,
+          "x": 946,
+          "y": 253,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet",
+          "width": 0,
+          "x": 610,
+          "y": 130,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet2",
+          "width": 0,
+          "x": 610,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "blockSheet2",
+          "width": 0,
+          "x": 946,
+          "y": 281,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -5614,45 +5663,6 @@
           ]
         },
         {
-          "name": "answerSheet",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": false,
           "italic": false,
           "name": "left1",
@@ -5662,9 +5672,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "4    -",
+          "string": "4  -",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -5681,9 +5691,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    1",
+          "string": "=  1",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -5974,7 +5984,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -6038,31 +6048,12 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back_2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
           }
         },
         {
@@ -6222,45 +6213,6 @@
           ]
         },
         {
-          "name": "answerSheet2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": false,
           "italic": false,
           "name": "Answer2",
@@ -6272,11 +6224,11 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         {
@@ -6296,9 +6248,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    3",
+          "string": "=  3",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -6315,9 +6267,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "4    -",
+          "string": "4  -",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -6595,6 +6547,123 @@
               ]
             }
           ]
+        },
+        {
+          "name": "answerSheet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "answerSheet2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "blockSheet2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\blockBorder.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -6618,10 +6687,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Cache"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2"
+                "back",
+                "\"59;59;152\""
               ],
               "subInstructions": []
             }
@@ -6672,6 +6742,16 @@
               },
               "parameters": [
                 "blockSheet"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "blockSheet2"
               ],
               "subInstructions": []
             },
@@ -7321,7 +7401,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "blockSheet"
+                "blockSheet2"
               ],
               "subInstructions": []
             }
@@ -7478,7 +7558,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "blockSheet",
+                    "blockSheet2",
                     ""
                   ],
                   "subInstructions": []
@@ -7564,11 +7644,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -7592,6 +7672,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -7655,7 +7750,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.64
+        "zoomFactor": 1
       },
       "objectsGroups": [],
       "variables": [
@@ -7757,8 +7852,8 @@
           "locked": false,
           "name": "left1",
           "width": 0,
-          "x": 414,
-          "y": 170,
+          "x": 540,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -7772,23 +7867,8 @@
           "locked": false,
           "name": "right1",
           "width": 0,
-          "x": 789,
-          "y": 170,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet",
-          "width": 120,
-          "x": 583,
-          "y": 138,
+          "x": 670,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -7802,8 +7882,8 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 629,
-          "y": 170,
+          "x": 630,
+          "y": 150,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7817,8 +7897,8 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 630,
-          "y": 170,
+          "x": 622,
+          "y": 150,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7832,8 +7912,8 @@
           "locked": false,
           "name": "blueBlock",
           "width": 0,
-          "x": 526,
-          "y": 387,
+          "x": 522,
+          "y": 400,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -7847,8 +7927,8 @@
           "locked": false,
           "name": "pinkBlock",
           "width": 0,
-          "x": 583,
-          "y": 390,
+          "x": 580,
+          "y": 403,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7862,8 +7942,8 @@
           "locked": false,
           "name": "pinkBlock",
           "width": 0,
-          "x": 637,
-          "y": 390,
+          "x": 634,
+          "y": 403,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -7877,8 +7957,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 583,
-          "y": 416,
+          "x": 580,
+          "y": 431,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -7892,8 +7972,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 637,
-          "y": 416,
+          "x": 634,
+          "y": 431,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -7910,21 +7990,6 @@
           "x": 175,
           "y": 20,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7969,7 +8034,7 @@
           "width": 0,
           "x": 830,
           "y": 13,
-          "zOrder": 8,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7984,7 +8049,7 @@
           "width": 0,
           "x": 830,
           "y": 13,
-          "zOrder": 9,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -7999,7 +8064,7 @@
           "width": 0,
           "x": 390,
           "y": 13,
-          "zOrder": 10,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8014,7 +8079,7 @@
           "width": 0,
           "x": 854,
           "y": 13,
-          "zOrder": 11,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8027,9 +8092,9 @@
           "locked": false,
           "name": "left2",
           "width": 0,
-          "x": 414,
-          "y": 297,
-          "zOrder": 12,
+          "x": 540,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8042,9 +8107,9 @@
           "locked": false,
           "name": "right2",
           "width": 0,
-          "x": 789,
-          "y": 297,
-          "zOrder": 13,
+          "x": 670,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8057,9 +8122,9 @@
           "locked": false,
           "name": "Answer2",
           "width": 0,
-          "x": 629,
-          "y": 297,
-          "zOrder": 14,
+          "x": 630,
+          "y": 300,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8072,24 +8137,9 @@
           "locked": false,
           "name": "answer2",
           "width": 0,
-          "x": 630,
+          "x": 623,
           "y": 297,
-          "zOrder": 15,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet2",
-          "width": 120,
-          "x": 583,
-          "y": 265,
-          "zOrder": 3,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8103,8 +8153,8 @@
           "name": "blueBlock2",
           "width": 0,
           "x": 526,
-          "y": 387,
-          "zOrder": 16,
+          "y": 400,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8117,9 +8167,9 @@
           "locked": false,
           "name": "blueBlock2",
           "width": 0,
-          "x": 581,
-          "y": 387,
-          "zOrder": 17,
+          "x": 580,
+          "y": 400,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8132,9 +8182,39 @@
           "locked": false,
           "name": "pinkBlock2",
           "width": 0,
-          "x": 637,
-          "y": 390,
-          "zOrder": 18,
+          "x": 638,
+          "y": 403,
+          "zOrder": 6,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet",
+          "width": 0,
+          "x": 610,
+          "y": 130,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet2",
+          "width": 0,
+          "x": 610,
+          "y": 280,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -8424,9 +8504,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "1    +",
+          "string": "1  +",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -8443,9 +8523,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    3",
+          "string": "=  3",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -8460,45 +8540,6 @@
           "behaviors": []
         },
         {
-          "name": "answerSheet",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": false,
           "italic": false,
           "name": "Answer",
@@ -8510,7 +8551,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -8839,31 +8880,12 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back_2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
           }
         },
         {
@@ -8954,9 +8976,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "2    +",
+          "string": "2  +",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -8973,9 +8995,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    3",
+          "string": "=  3",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -8990,7 +9012,7 @@
           "behaviors": []
         },
         {
-          "bold": true,
+          "bold": false,
           "italic": false,
           "name": "Answer2",
           "smoothed": true,
@@ -9001,11 +9023,11 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         {
@@ -9281,6 +9303,45 @@
           ]
         },
         {
+          "name": "answerSheet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "answerSheet2",
           "tags": "",
           "type": "Sprite",
@@ -9341,10 +9402,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Cache"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2"
+                "back",
+                "\"59;59;152\""
               ],
               "subInstructions": []
             }
@@ -10287,11 +10349,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -10315,6 +10377,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -10378,7 +10455,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.668
+        "zoomFactor": 0.956
       },
       "objectsGroups": [],
       "variables": [
@@ -10495,8 +10572,8 @@
           "locked": false,
           "name": "left1",
           "width": 0,
-          "x": 413,
-          "y": 170,
+          "x": 540,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10510,23 +10587,8 @@
           "locked": false,
           "name": "right1",
           "width": 0,
-          "x": 800,
-          "y": 170,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet",
-          "width": 120,
-          "x": 601,
-          "y": 138,
+          "x": 670,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10540,8 +10602,8 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 646,
-          "y": 170,
+          "x": 630,
+          "y": 150,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10555,8 +10617,8 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 646,
-          "y": 170,
+          "x": 625,
+          "y": 154,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10570,8 +10632,8 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 485,
-          "y": 401,
+          "x": 780,
+          "y": 100,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10585,8 +10647,8 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 542,
-          "y": 400,
+          "x": 834,
+          "y": 100,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10600,8 +10662,8 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 658,
-          "y": 403,
+          "x": 946,
+          "y": 103,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -10615,8 +10677,8 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 714,
-          "y": 403,
+          "x": 1000,
+          "y": 103,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -10630,8 +10692,8 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 602,
-          "y": 403,
+          "x": 892,
+          "y": 103,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10645,8 +10707,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 602,
-          "y": 431,
+          "x": 892,
+          "y": 131,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -10660,8 +10722,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 658,
-          "y": 431,
+          "x": 946,
+          "y": 131,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -10675,8 +10737,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 714,
-          "y": 429,
+          "x": 1000,
+          "y": 131,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -10693,21 +10755,6 @@
           "x": 175,
           "y": 21,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10737,7 +10784,7 @@
           "width": 0,
           "x": 830,
           "y": 13,
-          "zOrder": 8,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10752,7 +10799,7 @@
           "width": 0,
           "x": 806,
           "y": 13,
-          "zOrder": 9,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10767,7 +10814,7 @@
           "width": 0,
           "x": 806,
           "y": 13,
-          "zOrder": 10,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10782,7 +10829,7 @@
           "width": 0,
           "x": 390,
           "y": 13,
-          "zOrder": 11,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10795,9 +10842,9 @@
           "locked": false,
           "name": "left2",
           "width": 0,
-          "x": 413,
-          "y": 297,
-          "zOrder": 12,
+          "x": 540,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10810,23 +10857,8 @@
           "locked": false,
           "name": "right2",
           "width": 0,
-          "x": 800,
-          "y": 297,
-          "zOrder": 13,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet2",
-          "width": 120,
-          "x": 601,
-          "y": 265,
+          "x": 670,
+          "y": 300,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -10840,9 +10872,9 @@
           "locked": false,
           "name": "answer2",
           "width": 0,
-          "x": 646,
+          "x": 625,
           "y": 297,
-          "zOrder": 14,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10855,9 +10887,9 @@
           "locked": false,
           "name": "Answer2",
           "width": 0,
-          "x": 646,
-          "y": 297,
-          "zOrder": 15,
+          "x": 630,
+          "y": 300,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10870,9 +10902,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 485,
-          "y": 401,
-          "zOrder": 16,
+          "x": 780,
+          "y": 250,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10885,9 +10917,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 542,
-          "y": 401,
-          "zOrder": 17,
+          "x": 834,
+          "y": 250,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10900,9 +10932,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 598,
-          "y": 401,
-          "zOrder": 20,
+          "x": 888,
+          "y": 250,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10915,9 +10947,9 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 659,
-          "y": 403,
-          "zOrder": 21,
+          "x": 946,
+          "y": 253,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -10930,9 +10962,69 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 714,
-          "y": 403,
-          "zOrder": 22,
+          "x": 1000,
+          "y": 253,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet",
+          "width": 0,
+          "x": 610,
+          "y": 130,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet2",
+          "width": 0,
+          "x": 610,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "blockSheet2",
+          "width": 0,
+          "x": 946,
+          "y": 281,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "blockSheet2",
+          "width": 0,
+          "x": 1000,
+          "y": 281,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -11222,9 +11314,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "5    -",
+          "string": "5  -",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -11241,53 +11333,14 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    2",
+          "string": "=  2",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
           }
-        },
-        {
-          "name": "answerSheet",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
         },
         {
           "bold": false,
@@ -11301,7 +11354,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -11637,31 +11690,12 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back_2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
           }
         },
         {
@@ -11715,11 +11749,11 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
-            "b": 27,
-            "g": 2,
-            "r": 208
+            "b": 0,
+            "g": 0,
+            "r": 0
           }
         },
         {
@@ -11739,9 +11773,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "5    -",
+          "string": "5  -",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -11758,9 +11792,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    3",
+          "string": "=  3",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -12040,6 +12074,45 @@
           ]
         },
         {
+          "name": "answerSheet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
           "name": "answerSheet2",
           "tags": "",
           "type": "Sprite",
@@ -12058,6 +12131,45 @@
                     {
                       "hasCustomCollisionMask": false,
                       "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "blockSheet2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\blockBorder.png",
                       "points": [],
                       "originPoint": {
                         "name": "origine",
@@ -12100,10 +12212,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Cache"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2"
+                "back",
+                "\"59;59;152\""
               ],
               "subInstructions": []
             }
@@ -12154,6 +12267,16 @@
               },
               "parameters": [
                 "blockSheet"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "blockSheet2"
               ],
               "subInstructions": []
             },
@@ -12803,7 +12926,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "blockSheet"
+                "blockSheet2"
               ],
               "subInstructions": []
             }
@@ -12960,7 +13083,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "blockSheet",
+                    "blockSheet2",
                     ""
                   ],
                   "subInstructions": []
@@ -13046,11 +13169,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -13074,6 +13197,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -13137,7 +13275,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.64
+        "zoomFactor": 0.976
       },
       "objectsGroups": [],
       "variables": [
@@ -13239,23 +13377,8 @@
           "locked": false,
           "name": "left1",
           "width": 0,
-          "x": 414,
-          "y": 133,
-          "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet",
-          "width": 120,
-          "x": 603,
-          "y": 106,
+          "x": 540,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13269,8 +13392,8 @@
           "locked": false,
           "name": "right1",
           "width": 0,
-          "x": 802,
-          "y": 133,
+          "x": 670,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13284,8 +13407,8 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 645,
-          "y": 137,
+          "x": 630,
+          "y": 150,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13299,8 +13422,8 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 648,
-          "y": 131,
+          "x": 624,
+          "y": 150,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13314,8 +13437,8 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 596,
-          "y": 403,
+          "x": 892,
+          "y": 103,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -13329,8 +13452,8 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 540,
-          "y": 403,
+          "x": 838,
+          "y": 103,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13344,8 +13467,8 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 652,
-          "y": 403,
+          "x": 946,
+          "y": 103,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13359,8 +13482,8 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 708,
-          "y": 403,
+          "x": 1000,
+          "y": 103,
           "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
@@ -13374,8 +13497,8 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 481,
-          "y": 400,
+          "x": 780,
+          "y": 100,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13389,8 +13512,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 540,
-          "y": 431,
+          "x": 838,
+          "y": 131,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -13404,8 +13527,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 596,
-          "y": 431,
+          "x": 892,
+          "y": 131,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -13419,8 +13542,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 652,
-          "y": 431,
+          "x": 946,
+          "y": 131,
           "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
@@ -13434,8 +13557,8 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 708,
-          "y": 431,
+          "x": 1000,
+          "y": 131,
           "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
@@ -13452,21 +13575,6 @@
           "x": 175,
           "y": 21,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13516,7 +13624,7 @@
           "width": 0,
           "x": 782,
           "y": 13,
-          "zOrder": 8,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13531,7 +13639,7 @@
           "width": 0,
           "x": 806,
           "y": 13,
-          "zOrder": 9,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13546,7 +13654,7 @@
           "width": 0,
           "x": 782,
           "y": 13,
-          "zOrder": 10,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13561,7 +13669,7 @@
           "width": 0,
           "x": 390,
           "y": 13,
-          "zOrder": 11,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13574,24 +13682,9 @@
           "locked": false,
           "name": "left2",
           "width": 0,
-          "x": 421,
-          "y": 276,
-          "zOrder": 12,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 120,
-          "layer": "",
-          "locked": false,
-          "name": "answerSheet2",
-          "width": 122,
-          "x": 606,
-          "y": 241,
-          "zOrder": 13,
+          "x": 540,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13604,9 +13697,9 @@
           "locked": false,
           "name": "right2",
           "width": 0,
-          "x": 804,
-          "y": 276,
-          "zOrder": 14,
+          "x": 670,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13619,9 +13712,9 @@
           "locked": false,
           "name": "answer2",
           "width": 0,
-          "x": 651,
-          "y": 262,
-          "zOrder": 15,
+          "x": 623,
+          "y": 296,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13634,9 +13727,9 @@
           "locked": false,
           "name": "Answer2",
           "width": 0,
-          "x": 654,
-          "y": 272,
-          "zOrder": 16,
+          "x": 630,
+          "y": 300,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13649,9 +13742,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 483,
-          "y": 401,
-          "zOrder": 17,
+          "x": 780,
+          "y": 250,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13664,9 +13757,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 537,
-          "y": 401,
-          "zOrder": 18,
+          "x": 834,
+          "y": 250,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13679,9 +13772,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 592,
-          "y": 401,
-          "zOrder": 19,
+          "x": 888,
+          "y": 250,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13694,9 +13787,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 647,
-          "y": 401,
-          "zOrder": 20,
+          "x": 942,
+          "y": 250,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13709,9 +13802,54 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 705,
-          "y": 404,
-          "zOrder": 21,
+          "x": 1000,
+          "y": 253,
+          "zOrder": 7,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet",
+          "width": 0,
+          "x": 610,
+          "y": 130,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "answerSheet2",
+          "width": 0,
+          "x": 610,
+          "y": 280,
+          "zOrder": 3,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "blockSheet2",
+          "width": 0,
+          "x": 1000,
+          "y": 281,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -13914,84 +14052,6 @@
           ]
         },
         {
-          "name": "answerSheet2",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "answerSheet",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\answerSheet.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "bold": false,
           "italic": false,
           "name": "left2",
@@ -14001,9 +14061,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "5    -",
+          "string": "5  -",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -14020,9 +14080,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "5    -",
+          "string": "5  -",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -14039,9 +14099,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    4",
+          "string": "=  4",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -14058,9 +14118,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    1",
+          "string": "=  1",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -14623,7 +14683,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -14642,7 +14702,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -14713,31 +14773,12 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back_2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
           }
         },
         {
@@ -14817,6 +14858,123 @@
               ]
             }
           ]
+        },
+        {
+          "name": "answerSheet",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "answerSheet2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\answerSheet.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "blockSheet2",
+          "tags": "",
+          "type": "Sprite",
+          "updateIfNotVisible": false,
+          "variables": [],
+          "behaviors": [],
+          "animations": [
+            {
+              "name": "",
+              "useMultipleDirections": false,
+              "directions": [
+                {
+                  "looping": false,
+                  "timeBetweenFrames": 0.08,
+                  "sprites": [
+                    {
+                      "hasCustomCollisionMask": false,
+                      "image": "images\\blockBorder.png",
+                      "points": [],
+                      "originPoint": {
+                        "name": "origine",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "centerPoint": {
+                        "automatic": true,
+                        "name": "centre",
+                        "x": 0,
+                        "y": 0
+                      },
+                      "customCollisionMask": []
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ],
       "events": [
@@ -14840,10 +14998,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Cache"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2"
+                "back",
+                "\"59;59;152\""
               ],
               "subInstructions": []
             }
@@ -14894,6 +15053,16 @@
               },
               "parameters": [
                 "blockSheet"
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "Cache"
+              },
+              "parameters": [
+                "blockSheet2"
               ],
               "subInstructions": []
             },
@@ -15543,7 +15712,7 @@
                 "value": "Cache"
               },
               "parameters": [
-                "blockSheet"
+                "blockSheet2"
               ],
               "subInstructions": []
             }
@@ -15700,7 +15869,7 @@
                     "value": "Montre"
                   },
                   "parameters": [
-                    "blockSheet",
+                    "blockSheet2",
                     ""
                   ],
                   "subInstructions": []
@@ -15786,11 +15955,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -15814,6 +15983,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -15877,7 +16061,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.64
+        "zoomFactor": 0.928
       },
       "objectsGroups": [],
       "variables": [
@@ -15979,8 +16163,8 @@
           "locked": false,
           "name": "left1",
           "width": 0,
-          "x": 411,
-          "y": 140,
+          "x": 540,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -15988,14 +16172,14 @@
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 120,
           "layer": "",
           "locked": false,
           "name": "answerSheet",
           "width": 120,
-          "x": 598,
-          "y": 115,
+          "x": 610,
+          "y": 130,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -16009,8 +16193,8 @@
           "locked": false,
           "name": "right1",
           "width": 0,
-          "x": 790,
-          "y": 140,
+          "x": 670,
+          "y": 150,
           "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
@@ -16024,8 +16208,8 @@
           "locked": false,
           "name": "Answer",
           "width": 0,
-          "x": 641,
-          "y": 145,
+          "x": 630,
+          "y": 150,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -16039,8 +16223,8 @@
           "locked": false,
           "name": "answer",
           "width": 0,
-          "x": 645,
-          "y": 140,
+          "x": 625,
+          "y": 151,
           "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
@@ -16054,7 +16238,7 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 481,
+          "x": 468,
           "y": 400,
           "zOrder": 3,
           "numberProperties": [],
@@ -16069,7 +16253,7 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 537,
+          "x": 522,
           "y": 431,
           "zOrder": 3,
           "numberProperties": [],
@@ -16084,7 +16268,7 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 595,
+          "x": 580,
           "y": 431,
           "zOrder": 4,
           "numberProperties": [],
@@ -16099,7 +16283,7 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 652,
+          "x": 634,
           "y": 431,
           "zOrder": 5,
           "numberProperties": [],
@@ -16114,7 +16298,7 @@
           "locked": false,
           "name": "blockSheet",
           "width": 0,
-          "x": 709,
+          "x": 688,
           "y": 431,
           "zOrder": 6,
           "numberProperties": [],
@@ -16132,21 +16316,6 @@
           "x": 175,
           "y": 21,
           "zOrder": 3,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16196,7 +16365,7 @@
           "width": 0,
           "x": 782,
           "y": 13,
-          "zOrder": 8,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16211,7 +16380,7 @@
           "width": 0,
           "x": 806,
           "y": 13,
-          "zOrder": 9,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16226,7 +16395,7 @@
           "width": 0,
           "x": 758,
           "y": 13,
-          "zOrder": 10,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16241,7 +16410,7 @@
           "width": 0,
           "x": 758,
           "y": 13,
-          "zOrder": 11,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16254,9 +16423,9 @@
           "locked": false,
           "name": "blueblock",
           "width": 0,
-          "x": 537,
+          "x": 522,
           "y": 400,
-          "zOrder": 12,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16269,9 +16438,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 595,
+          "x": 580,
           "y": 403,
-          "zOrder": 13,
+          "zOrder": 5,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16284,9 +16453,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 652,
+          "x": 634,
           "y": 403,
-          "zOrder": 14,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16299,9 +16468,9 @@
           "locked": false,
           "name": "pinkblock",
           "width": 0,
-          "x": 709,
+          "x": 688,
           "y": 403,
-          "zOrder": 15,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16314,24 +16483,24 @@
           "locked": false,
           "name": "left2",
           "width": 0,
-          "x": 409,
-          "y": 276,
-          "zOrder": 16,
+          "x": 540,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
         },
         {
           "angle": 0,
-          "customSize": true,
+          "customSize": false,
           "height": 119,
           "layer": "",
           "locked": false,
           "name": "answerSheet2",
           "width": 121,
-          "x": 601,
-          "y": 246,
-          "zOrder": 17,
+          "x": 610,
+          "y": 280,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16344,9 +16513,9 @@
           "locked": false,
           "name": "answer2",
           "width": 0,
-          "x": 648,
-          "y": 272,
-          "zOrder": 18,
+          "x": 623,
+          "y": 292,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16359,9 +16528,9 @@
           "locked": false,
           "name": "right2",
           "width": 0,
-          "x": 790,
-          "y": 272,
-          "zOrder": 19,
+          "x": 670,
+          "y": 300,
+          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16374,9 +16543,9 @@
           "locked": false,
           "name": "Answer2",
           "width": 0,
-          "x": 646,
-          "y": 275,
-          "zOrder": 20,
+          "x": 630,
+          "y": 300,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16389,24 +16558,9 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 480,
-          "y": 401,
-          "zOrder": 21,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
-          "name": "blueblock2",
-          "width": 0,
-          "x": 535,
+          "x": 580,
           "y": 400,
-          "zOrder": 22,
+          "zOrder": 6,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16419,9 +16573,24 @@
           "locked": false,
           "name": "blueblock2",
           "width": 0,
-          "x": 590,
+          "x": 526,
           "y": 400,
-          "zOrder": 23,
+          "zOrder": 5,
+          "numberProperties": [],
+          "stringProperties": [],
+          "initialVariables": []
+        },
+        {
+          "angle": 0,
+          "customSize": false,
+          "height": 0,
+          "layer": "",
+          "locked": false,
+          "name": "blueblock2",
+          "width": 0,
+          "x": 472,
+          "y": 400,
+          "zOrder": 4,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16434,8 +16603,8 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 648,
-          "y": 404,
+          "x": 692,
+          "y": 403,
           "zOrder": 24,
           "numberProperties": [],
           "stringProperties": [],
@@ -16449,9 +16618,9 @@
           "locked": false,
           "name": "pinkblock2",
           "width": 0,
-          "x": 703,
-          "y": 404,
-          "zOrder": 25,
+          "x": 638,
+          "y": 403,
+          "zOrder": 7,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -16741,9 +16910,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "3    +",
+          "string": "3  +",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -16760,9 +16929,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "2    +",
+          "string": "2  +",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -16779,9 +16948,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    5",
+          "string": "=  5",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -16798,9 +16967,9 @@
           "underlined": false,
           "variables": [],
           "behaviors": [],
-          "string": "=    5",
+          "string": "=  5",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -17363,7 +17532,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -17382,7 +17551,7 @@
           "behaviors": [],
           "string": "",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 60,
+          "characterSize": 45,
           "color": {
             "b": 0,
             "g": 0,
@@ -17453,31 +17622,12 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back_2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
           }
         },
         {
@@ -17580,10 +17730,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Cache"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2"
+                "back",
+                "\"59;59;152\""
               ],
               "subInstructions": []
             }
@@ -18526,11 +18677,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -18554,6 +18705,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -18617,7 +18783,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.658
+        "zoomFactor": 0.898
       },
       "objectsGroups": [],
       "variables": [
@@ -19224,21 +19390,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "background",
           "width": 0,
           "x": 0,
@@ -19625,7 +19776,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -19664,7 +19820,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -19703,7 +19864,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -19742,7 +19908,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -19781,7 +19952,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -21040,7 +21216,7 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
@@ -21601,6 +21777,17 @@
                 "\"standard\""
               ],
               "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "back",
+                "\"59;59;152\""
+              ],
+              "subInstructions": []
             }
           ],
           "events": []
@@ -21682,6 +21869,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -26460,11 +26662,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -26488,6 +26690,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -26551,7 +26768,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.928
       },
       "objectsGroups": [],
       "variables": [
@@ -27150,21 +27367,6 @@
           "height": 0,
           "layer": "",
           "locked": false,
-          "name": "back_2",
-          "width": 0,
-          "x": 175,
-          "y": 21,
-          "zOrder": 4,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": false,
-          "height": 0,
-          "layer": "",
-          "locked": false,
           "name": "background",
           "width": 0,
           "x": 0,
@@ -27245,21 +27447,6 @@
           "x": 854,
           "y": 13,
           "zOrder": 5,
-          "numberProperties": [],
-          "stringProperties": [],
-          "initialVariables": []
-        },
-        {
-          "angle": 0,
-          "customSize": true,
-          "height": 36,
-          "layer": "",
-          "locked": false,
-          "name": "stopbean1",
-          "width": 36,
-          "x": 390,
-          "y": 13,
-          "zOrder": 3,
           "numberProperties": [],
           "stringProperties": [],
           "initialVariables": []
@@ -27521,7 +27708,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -27560,7 +27752,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -27599,7 +27796,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -27638,7 +27840,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -27677,7 +27884,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -28068,7 +28280,7 @@
             }
           ],
           "behaviors": [],
-          "string": "\n\n\n\n\n \n\n\n 5  -  1",
+          "string": "\n\n\n\n\n \n\n\n    5  -  1",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
@@ -28936,31 +29148,12 @@
           "variables": [],
           "behaviors": [],
           "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
+          "font": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
           "characterSize": 20,
           "color": {
             "b": 0,
             "g": 0,
             "r": 0
-          }
-        },
-        {
-          "bold": false,
-          "italic": false,
-          "name": "back_2",
-          "smoothed": true,
-          "tags": "",
-          "type": "TextObject::Text",
-          "underlined": false,
-          "variables": [],
-          "behaviors": [],
-          "string": "< Back",
-          "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
-          "characterSize": 20,
-          "color": {
-            "b": 226,
-            "g": 144,
-            "r": 74
           }
         },
         {
@@ -29198,45 +29391,6 @@
           ]
         },
         {
-          "name": "stopbean1",
-          "tags": "",
-          "type": "Sprite",
-          "updateIfNotVisible": false,
-          "variables": [],
-          "behaviors": [],
-          "animations": [
-            {
-              "name": "",
-              "useMultipleDirections": false,
-              "directions": [
-                {
-                  "looping": false,
-                  "timeBetweenFrames": 0.08,
-                  "sprites": [
-                    {
-                      "hasCustomCollisionMask": false,
-                      "image": "images\\stop bean.png",
-                      "points": [],
-                      "originPoint": {
-                        "name": "origine",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "centerPoint": {
-                        "automatic": true,
-                        "name": "centre",
-                        "x": 0,
-                        "y": 0
-                      },
-                      "customCollisionMask": []
-                    }
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
           "name": "speaker",
           "tags": "",
           "type": "Sprite",
@@ -29329,26 +29483,6 @@
                 "value": "Cache"
               },
               "parameters": [
-                "back_2"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
-                "stopbean1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
-                "value": "Cache"
-              },
-              "parameters": [
                 "stopbean2"
               ],
               "subInstructions": []
@@ -29361,6 +29495,17 @@
               "parameters": [
                 "speaker",
                 "\"standard\""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "TextObject::ChangeColor"
+              },
+              "parameters": [
+                "back",
+                "\"59;59;152\""
               ],
               "subInstructions": []
             }
@@ -33875,7 +34020,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "quay về màn hình chờ hoặc quit game",
+          "comment": "quay về màn hình chờ ",
           "comment2": ""
         },
         {
@@ -33900,58 +34045,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "AddForceAL"
-              },
-              "parameters": [
-                "bean1",
-                "180",
-                "200",
-                "1"
-              ],
-              "subInstructions": []
-            },
-            {
-              "type": {
-                "inverted": false,
                 "value": "Delete"
               },
               "parameters": [
                 "bird1",
                 ""
-              ],
-              "subInstructions": []
-            }
-          ],
-          "events": []
-        },
-        {
-          "disabled": false,
-          "folded": false,
-          "type": "BuiltinCommonInstructions::Standard",
-          "conditions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "CollisionNP"
-              },
-              "parameters": [
-                "bean1",
-                "stopbean1",
-                "",
-                "",
-                "yes"
-              ],
-              "subInstructions": []
-            }
-          ],
-          "actions": [
-            {
-              "type": {
-                "inverted": false,
-                "value": "Arreter"
-              },
-              "parameters": [
-                "bean1"
               ],
               "subInstructions": []
             },
@@ -33962,7 +34060,7 @@
               },
               "parameters": [
                 "",
-                "\"Game2-1\"",
+                "\"Fail Finish\"",
                 "yes"
               ],
               "subInstructions": []
@@ -34064,23 +34162,7 @@
               "subInstructions": []
             }
           ],
-          "events": [
-            {
-              "disabled": false,
-              "folded": false,
-              "type": "BuiltinCommonInstructions::Comment",
-              "color": {
-                "b": 109,
-                "g": 230,
-                "r": 255,
-                "textB": 0,
-                "textG": 0,
-                "textR": 0
-              },
-              "comment": "chuyển sang scene Game2-2",
-              "comment2": ""
-            }
-          ]
+          "events": []
         },
         {
           "disabled": false,
@@ -34120,11 +34202,11 @@
             {
               "type": {
                 "inverted": false,
-                "value": "Montre"
+                "value": "TextObject::ChangeColor"
               },
               "parameters": [
-                "back_2",
-                ""
+                "back",
+                "\"27;156;252\""
               ],
               "subInstructions": []
             }
@@ -34148,6 +34230,21 @@
                 }
               ],
               "actions": [
+                {
+                  "type": {
+                    "inverted": false,
+                    "value": "PlaySoundCanal"
+                  },
+                  "parameters": [
+                    "",
+                    "Sound\\click.wav",
+                    "1",
+                    "",
+                    "",
+                    ""
+                  ],
+                  "subInstructions": []
+                },
                 {
                   "type": {
                     "inverted": false,
@@ -34452,20 +34549,6 @@
                     "",
                     "\"Start\"",
                     "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Sound\\click.wav",
-                    "",
-                    "",
-                    ""
                   ],
                   "subInstructions": []
                 }
@@ -34849,20 +34932,6 @@
                     "",
                     "\"Start\"",
                     "yes"
-                  ],
-                  "subInstructions": []
-                },
-                {
-                  "type": {
-                    "inverted": false,
-                    "value": "PlaySound"
-                  },
-                  "parameters": [
-                    "",
-                    "Sound\\click.wav",
-                    "",
-                    "",
-                    ""
                   ],
                   "subInstructions": []
                 }

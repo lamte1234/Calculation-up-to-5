@@ -2,9 +2,11 @@ window: 1280 x 720
 playField: 960 x 620 locate 160 x 10
 bean 36 x 36
 
-phần 1:
+phần 1:left1 540 150 right1 670 150
+	left2 540 300 right2 670 300
+	answer 630 150 answer2 630 300
 
-
+	answerSheet1 610 130 answerSheet2 610 280
 
 
 phần 2: 
