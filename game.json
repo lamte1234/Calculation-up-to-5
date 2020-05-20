@@ -1041,7 +1041,7 @@
           "locked": false,
           "name": "game1",
           "width": 0,
-          "x": 360,
+          "x": 285,
           "y": 220,
           "zOrder": 1,
           "numberProperties": [],
@@ -1056,7 +1056,7 @@
           "locked": false,
           "name": "game2",
           "width": 0,
-          "x": 740,
+          "x": 795,
           "y": 220,
           "zOrder": 1,
           "numberProperties": [],
@@ -1071,7 +1071,7 @@
           "locked": false,
           "name": "tiltle1",
           "width": 0,
-          "x": 375,
+          "x": 300,
           "y": 400,
           "zOrder": 3,
           "numberProperties": [],
@@ -1086,7 +1086,7 @@
           "locked": false,
           "name": "title2",
           "width": 0,
-          "x": 750,
+          "x": 800,
           "y": 400,
           "zOrder": 4,
           "numberProperties": [],
@@ -1116,7 +1116,7 @@
           "locked": false,
           "name": "game1_2",
           "width": 8,
-          "x": 360,
+          "x": 285,
           "y": 220,
           "zOrder": 2,
           "numberProperties": [],
@@ -1131,7 +1131,7 @@
           "locked": false,
           "name": "game2_2",
           "width": 0,
-          "x": 740,
+          "x": 795,
           "y": 220,
           "zOrder": 2,
           "numberProperties": [],
@@ -1687,7 +1687,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 0.736
+        "zoomFactor": 0.424
       },
       "objectsGroups": [],
       "variables": [
@@ -16520,7 +16520,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -16559,7 +16564,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -16598,7 +16608,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -16637,7 +16652,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -16676,7 +16696,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -23446,7 +23471,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1
+        "zoomFactor": 0.712
       },
       "objectsGroups": [],
       "variables": [
@@ -24416,7 +24441,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -24455,7 +24485,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -24494,7 +24529,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -24533,7 +24573,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -24572,7 +24617,12 @@
           "type": "Sprite",
           "updateIfNotVisible": false,
           "variables": [],
-          "behaviors": [],
+          "behaviors": [
+            {
+              "name": "Draggable",
+              "type": "DraggableBehavior::Draggable"
+            }
+          ],
           "animations": [
             {
               "name": "",
@@ -24963,7 +25013,7 @@
             }
           ],
           "behaviors": [],
-          "string": "\n\n\n\n\n \n\n\n 5  -  1",
+          "string": "\n\n\n\n\n \n\n\n     5  -  1",
           "font": "Font\\PTS55F_W-0ffc6f276e0c6b4e55e385687e9ad66101b56489f42d6ae01914ef505e77044c.ttf",
           "characterSize": 20,
           "color": {
