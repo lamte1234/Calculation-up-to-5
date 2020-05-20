@@ -1710,6 +1710,18 @@
         {
           "name": "start",
           "value": "0"
+        },
+        {
+          "name": "trueAnswer2",
+          "value": "3"
+        },
+        {
+          "name": "markIfCorrect2",
+          "value": "-1"
+        },
+        {
+          "name": "playerAnswer2",
+          "value": "0"
         }
       ],
       "instances": [
@@ -13144,6 +13156,18 @@
         {
           "name": "playerAnswer",
           "value": "0"
+        },
+        {
+          "name": "trueAnswer2",
+          "value": "1"
+        },
+        {
+          "name": "markIfCorrect2",
+          "value": "-1"
+        },
+        {
+          "name": "playerAnswer2",
+          "value": "0"
         }
       ],
       "instances": [
@@ -15871,6 +15895,18 @@
         },
         {
           "name": "playerAnswer",
+          "value": "0"
+        },
+        {
+          "name": "trueAnswer2",
+          "value": "2"
+        },
+        {
+          "name": "markIfCorrect2",
+          "value": "-1"
+        },
+        {
+          "name": "playerAnswer2",
           "value": "0"
         }
       ],
