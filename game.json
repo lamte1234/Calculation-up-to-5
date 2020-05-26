@@ -14,7 +14,7 @@
     "macExecutableFilename": "",
     "orientation": "landscape",
     "packageName": "com.example.gamename",
-    "projectFile": "D:\\GDevelop Projects\\StudyApp\\game.json",
+    "projectFile": "C:\\Users\\ADMIN\\Desktop\\Calculation-up-to-5\\game.json",
     "scaleMode": "linear",
     "sizeOnStartupMode": "",
     "useExternalSourceFiles": false,
@@ -1003,6 +1003,20 @@
         "metadata": "",
         "name": "Font\\noto-sans-v7-vietnamese_cyrillic-ext_cyrillic_greek_devanagari_latin-ext_greek-ext_latin-regular-ccd2fd77874111dea1cc0d597d7ab95188cc5999c7c3e35996d482c5ffacad2a.ttf",
         "userAdded": true
+      },
+      {
+        "file": "Sound/KĐ_đúng.ogg",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\KĐ_đúng.ogg",
+        "userAdded": false
+      },
+      {
+        "file": "Sound/TiengVoTay-V.A-3234314.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Sound\\TiengVoTay-V.A-3234314.mp3",
+        "userAdded": true
       }
     ],
     "resourceFolders": []
@@ -1035,7 +1049,7 @@
         "gridWidth": 32,
         "snap": true,
         "windowMask": false,
-        "zoomFactor": 1.216
+        "zoomFactor": 0.592
       },
       "objectsGroups": [],
       "variables": [],
@@ -34450,6 +34464,20 @@
               "parameters": [
                 "",
                 "Sound\\win.wav",
+                "",
+                "",
+                ""
+              ],
+              "subInstructions": []
+            },
+            {
+              "type": {
+                "inverted": false,
+                "value": "PlaySound"
+              },
+              "parameters": [
+                "",
+                "Sound\\TiengVoTay-V.A-3234314.mp3",
                 "",
                 "",
                 ""
